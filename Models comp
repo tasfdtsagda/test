@@ -1,0 +1,2101 @@
+Settings for all local models.
+
+Lunatranslator
+
+Use translation cache off
+Use proxy off
+Streaming output off
+Number off context lines 0
+max tokens 1024
+thnking off
+
+
+Prompt
+system: You are a translator. Please help me translate the following  text into English. You should only tell me the translation result without any additional explanations.
+
+user: 
+Reply
+
+https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF
+
+Unsloth Studio
+
+Temperature 0.1
+Top P 0.1
+Top K 50
+Min P 0.15
+Repetition Penalty off
+Presence penalty off
+
+
+慣れというのは便利なのか不便なのか。俺には判断しかねることだ。
+General LLM Interface How convenient is it to be familiar? I can only make a judgment.
+
+気付けば世界に存在していて。両親も兄弟もなく、唯一、血の繋がった叔父夫婦の元で育ち――
+General LLM Interface Noticing that there is someone in the world. There are no parents or siblings, and it was raised only under the care of a blood-related uncle and aunt.
+
+富豪でも貧乏でもなく、天才でも鈍才でもなく、何にも恵まれず何も持たない。
+General LLM Interface Wealthy or poor, genius or mediocre, nothing is given to them, and they have nothing.
+
+社会の中に俺ひとり分の居場所を作って、ひっそりと静かに過ごす日々。それが俺の『慣れ』だった。
+General LLM Interface Creating a place in society where I can quietly spend my days has become my 'habit'.
+
+響「..................」
+General LLM Interface The translation of "響「..................」" into English is:
+
+"Responding to: " followed by the content of the ellipsis.
+
+Since the ellipsis represents an unspecified text, the translation reflects that as well.
+
+響「......ぐ......ぬ......」
+General LLM Interface The translation of "響「......ぐ......ぬ......」" is:
+
+"Echo: '.......g...' / '.......n...'"
+
+(Note: The text appears to be a phonetic or stylized representation, possibly from a game or script. The exact meaning may depend on context.)
+
+春休み最終日。俺は戦っていた。
+General LLM Interface The final day of spring break. I fought.
+
+買い込んだ食料が尽きたのは昨日の夜。あと1日くらいは乗り切れるだろうと、笑いながら高をくくっていた。
+General LLM Interface The food we bought ran out last night. Laughing, I thought we could last about another day.
+
+響「......くっ......」
+General LLM Interface Hear "......kuk......"
+
+しかし、目算を見誤る。生存本能というのは思いのほか強敵だ。空腹という名の侵略軍が、予想以上の戦力で俺の陣地に攻め入ってくる。
+General LLM Interface But I misjudged the eyesight. The survival instinct is far stronger than I expected. An invading force called hunger is coming at my position with unexpected strength.
+
+別に飢餓に苦しむほど生活が貧しいわけじゃない。今すぐ外に出て食料を買いに行けば良いだけのことだ。
+General LLM Interface It's not just because they suffer from hunger. It's enough to just go out and buy food.
+
+響「でも、あと1日......いや半日の辛抱なんだよ」
+General LLM Interface But then, it's still one more day... I think I'll wait for half a day.
+
+響「どうせ明日になったら部屋の外に出るんだ。だからもう少し、あと半日我慢すれば......」
+General LLM Interface The translation is: "Well, if it becomes tomorrow, I'll go out of the room. So I'll have to endure a little more than half a day..."
+
+敵は攻撃の手を緩めない。本陣が陥落しつつある。このままでは日没前に決着がつくだろう。
+General LLM Interface The enemy will not loosen their attack. The battlefield is collapsing, and if we don't act now, it will end before sunset.
+
+響「ぐ......まだまだ......!」
+General LLM Interface Hearing "ぐ......まだまだ......!"
+
+だが、俺は耐え抜く意志を譲らなかった。春休みの間中、ずっとこの部屋で過ごしてきたんだ。今さら外に出たら負けかなと思ってる。
+General LLM Interface But I didn't give up my determination. For a long time, I've spent in this room during the spring break. I'm afraid if I go out now, I'll lose it.
+
+できる限り動かないでいよう。呼吸も抑えよう。CO2が抑えられて地球にも優しい。なんて素敵なエコロジー。
+General LLM Interface Please try to stay as still as possible. Try to hold your breath. CO2 is controlled, making the Earth gentle. What a wonderful eco-friendly approach!
+
+響「ん......?」
+General LLM Interface Hmm, "響" seems like a phonetic or onomatopoeic term. Could you clarify what you'd like translated?
+
+「響くん、いるかねー?」
+General LLM Interface "Are you there?"
+
+響「はーい」
+General LLM Interface Hooray!
+
+静止せんとする俺の意思は、鳴り響くインターホンによって打ち破られた。
+General LLM Interface My intention to remain still was shattered by the ringing intercom.
+
+ドアを開けると、そこには愛想が良さそうな中年の男性。このマンションのオーナーにして俺の叔父。育ての親だ。
+General LLM Interface When you open the door, there is a middle-aged man with a friendly demeanor who is the owner of this apartment and my uncle. He is a parent to me.
+
+彼は俺の姿を見た途端、眉間に皺を寄せて溜め息をつく。
+General LLM Interface He saw my face and immediately furrowed his brow, exhaling a slow breath.
+
+「はぁ~......また昼間から引きこもっているのかキミは」
+General LLM Interface "Hmm... are you hiding in the middle of the day again, you?"
+
+響「いや、別にそういうわけじゃ......」
+General LLM Interface "Hey, I don't think that's the case at all..."
+
+「じゃあ、この春休みをどう過ごしていたのか言ってみなさい」
+General LLM Interface "So, tell me how you spent your spring break."
+
+響「え? 初日に買い物をして、後はずっとテレビを見たりゲームをしたり......」
+General LLM Interface "Hey? I went shopping on the first day and then spent the rest of the time watching TV or playing games..."
+
+「それを引きこもりと言うんだよ、世間ではっ!」
+General LLM Interface "I called it a withdrawal, they said! "
+
+響「..................」
+General LLM Interface The translation of "響「..................」" into English is:
+
+"Responding to: " followed by the content of the ellipsis.
+
+Since the ellipsis represents an unspecified text, the translation reflects that as well.
+
+「まったく、私立へ通う学費と生活費を出して、自立できるようにと部屋まで貸し与えてるのに、キミがそんな様子では姉さんに申し訳が立たないよ」
+General LLM Interface "Completely, I'm paying the tuition and living expenses for private school, letting you live in the room so you can become independent. But you're acting like that, it's not a shame for your sister."
+
+「姉さん」というのは俺の母親だ。現在は父と共に消息不明。とにかく、俺の血縁者は叔父夫婦だけしかいない。
+General LLM Interface "My sister" is my mother. Currently, I'm missing in contact with my father. At all costs, my relatives are only my uncle and aunt.
+
+昔は色々と聞いてみたり、他の子供達が持つ『家族』なるものを欲してみたりしたけれど、最近ではどうでも良くなっている。
+General LLM Interface Back in the day, I used to listen to various things, try to find what kind of 'family' other kids had, but lately it seems to have gotten better.
+
+生きていくには困らないのだし、これ以上は必要ないだろうと。そう決め込んで、俺は欲することをやめていた。
+General LLM Interface It doesn't seem like living is difficult, and there's no need to go further. So I decided to stop wanting.
+
+「少し甘やかし過ぎたのかもしれないなぁ。このままじゃキミはニートだよ、ニート」
+General LLM Interface "It might have been a little too lenient. If we don't change it, you'll just be a nerd, nerd."
+
+響「いや、まだ学生だし、そう決めるのは早いんじゃ......」
+General LLM Interface "Hey, I'm not sure yet, I'm still a student, and making such a decision is too early..."
+
+「そこが甘いと言っている。学生時代は人生の縮図だ。この時期にどういう道を歩んだかによって、未来が大きく変わるんだよ?」
+General LLM Interface "That's what they say is sweet. In my student days, life was a microcosm. The path you took during that time can significantly change your future."
+
+「私がキミぐらいのときには、それこそ色々な人と付き合ったものさ。本気で頼れる仲間、競いあったライバル、女の子との繊細な駆け引き」
+General LLM Interface "I was once like you, and that's what it means to have met so many people. It was a mix of genuine partners, rivals to compete with, and delicate negotiations with girls."
+
+「ところが、キミときたらどうだ!? 部屋に引きこもって、貴重な青春を浪費するだけ。不自由のない今に満足して、自分だけの世界を作ってしまっている」
+General LLM Interface "But wait, what if you came here? You'll just waste your precious youth in a room, creating your own world without freedom."
+
+響「はあ......」
+General LLM Interface Hear "haa...."
+
+「よぉし、これまで甘やかしてきたが、私は覚悟を決めたぞ。キミにひとつ課題を与えよう。これができなかった場合は、今後の生活費を半分に減らす!」
+General LLM Interface "Hey, this is what I've been treating you with so far, but I've decided I won't give up. I'll give you one challenge. If you can't do it, you'll have to cut your future living expenses in half!"
+
+響「ええーっ!? 半分って、それじゃまともに暮らせないよ!」
+General LLM Interface "Hey!? Half of it, that's not something you can live on!"
+
+「アルバイトをすればいいだろう、今の学園では禁止されていないんだから」
+General LLM Interface It would be fine to work part-time, and it's not prohibited at the current university.
+
+響「うっ......アル......バイト......」
+General LLM Interface Hearing "うっ......アル......バイト......"
+
+確かにバイトをやってる生徒もいる。しかし、俺がやるとなれば話は別。部屋の外に出るだけでも嫌だというのに。
+General LLM Interface Certainly, there are students working as interns. However, if I were to do it myself, the situation would be different. Even just going outside the room is unpleasant to me.
+
+死ぬ。働いたりしたら死ぬ。死ぬ自信がある。
+General LLM Interface Die. Work or I will die. I have confidence in dying.
+
+響「いきなり言われても......俺、働いたことがないし......」
+General LLM Interface "Hearing it immediately, I said, 'I haven't worked before...'
+
+「学業を終えたら、嫌でも働かなければならないんだぞ。まさか、いつまでも私からお金がもらえると思ってるんじゃ......」
+General LLM Interface "After finishing my studies, I have to work no matter how I feel. I really thought I would always get money from me..."
+
+響「いや、流石にそこまでは!」
+General LLM Interface Replied "No, that's enough!"
+
+「私がキミの面倒を見てあげられるのは、今のうちだけなんだよ。分かるね?」
+General LLM Interface "It's only possible for me to take care of your needs right now, right? You understand?"
+
+俺は無言でうなずく。こんな暮らしをさせてもらってるだけでも、十分にありがたいのだ。
+General LLM Interface I nodded silently. It's truly appreciated just for being treated like that.
+
+「まあ、ニート予備軍のキミには辛~~い世の中だろう。しかし、課題さえクリアすれば、少なくとも学生の間は今までどおりだ」
+General LLM Interface Well, it's not an easy world for you, the prepped teens. But if you clear the assignments, at least things will be the same for students.
+
+響「そ、それで......その課題っていうのは......?」
+General LLM Interface "Hmm, so then... That's the part about this assignment...?"
+
+「率直に言おう、響くん......」
+General LLM Interface "Honestly, let's say... you're listening..."
+
+「ずばり、彼女を作りなさいっ!」
+General LLM Interface "Very well, make her!"
+
+響「かの、じょ......?」
+General LLM Interface The translation of "響「かの、じょ......?」" into English is:
+
+"Whoa, what's up?" or "Hey, how are you?"
+
+「女とは男を変える生き物。愛する女のために、男は自分に磨きをかける。オスのDNAがそうさせるのだ」
+General LLM Interface "Women are creatures that change men. For the woman I love, men must refine themselves. It is the male DNA that does this."
+
+響「はあ......」
+General LLM Interface Hear "haa...."
+
+「私は断言する。最愛の者がいる男は、ニートになる暇などないのだとっ!」
+General LLM Interface "I assert that there is no time for a nerd to become a teenager."
+
+拳を掲げ、演説口調で声を張り上げる叔父さん。大丈夫、いつものこと。この人は時々こうなる。
+General LLM Interface Stand up with your fist, speaking in a persuasive tone, Uncle! Everything is fine, this is something that happens from time to time.
+
+それにしても「彼女を作れ」とは、また無茶なことを。無茶すぎて実感が湧かないぞ?
+General LLM Interface But it's still a crazy thing to say "make her," isn't it? It's too extreme and I don't really get it.
+
+だって、俺......この春休みの間だって、ほとんどヒトと会わなかったわけだし。女の子と付き合うなんて、とてもとても......
+General LLM Interface Well, honestly, I didn't really meet many people during the spring break. It's pretty strange to think about getting involved with a girl.
+
+「響くん、キミに残された道は2つ。彼女を作るか、働くかだ!」
+General LLM Interface "Echo, the path left for you is two. Will you make her or work?"
+
+響「ええっ......? 他の道は?」
+General LLM Interface "Huh? ... Are there other paths?"
+
+「ないっ!」
+General LLM Interface "No!"
+
+うわぁ、キッパリ言い切ったよ......でも、俺の学費や生活費を出した上に、こうしてマンションの一室まで提供してくれている人だ。
+General LLM Interface Wow, I really went all out... but you're giving me a room in a condo just like that, after spending my tuition and living expenses.
+
+この厳しいお説教も、俺のためを思って言っているのだろう。それが分からないほどの馬鹿になった覚えはない。
+General LLM Interface This strict sermon is probably being said for my own sake. I don't remember any foolishness about it.
+
+う~ん......気乗りしないけど、俺を養ってくれてる叔父さんの言いつけだしなあ......
+General LLM Interface Uh... I don't act like that, but the words from the uncle's nephew are really encouraging...
+
+響「分かったよ。頑張って彼女を作ってみる」
+General LLM Interface Understood. Let's try to make this translation.
+
+The translation is:  
+"Okay, I get it. Let's try to make her."
+
+「よーし、期待してるよ! キミなら大丈夫だ、このダンディな私と同じ血が流れているんだから」
+General LLM Interface "Aye, I'm looking forward to it! I'm sure you're fine, this guy has the same blood as me."
+
+自分でダンディとか言うなよ......
+General LLM Interface Don't call yourself a Dandy, huh...
+
+しかし、『彼女』か。場の勢いに流されたとはいえ、大変な約束をしたものだ。
+General LLM Interface But is it really her? Despite the momentum of the situation, she made a very significant promise.
+
+そもそも彼女って、一体どうすれば作れるんだろう?
+General LLM Interface What is it really like to make her?
+
+https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF
+
+Unsloth Studio
+
+Temperature 0.15
+Top P 0.95
+Top K -1
+Min P 0.01
+Repetition Penalty off
+Presence penalty off
+
+
+慣れというのは便利なのか不便なのか。俺には判断しかねることだ。
+General LLM Interface Getting used to things—is it convenient or inconvenient? I just can’t decide.
+
+気付けば世界に存在していて。両親も兄弟もなく、唯一、血の繋がった叔父夫婦の元で育ち――
+General LLM Interface I realized I existed in the world alone. Without parents or siblings, I was raised by the only blood-related uncle and aunt I had.
+
+富豪でも貧乏でもなく、天才でも鈍才でもなく、何にも恵まれず何も持たない。
+General LLM Interface He is neither rich nor poor, neither a genius nor a dullard, blessed with nothing and possessing nothing.
+
+社会の中に俺ひとり分の居場所を作って、ひっそりと静かに過ごす日々。それが俺の『慣れ』だった。
+General LLM Interface In the midst of society, I carved out a place just for myself, living quietly and unobtrusively day by day. That was my **"normal"**—my **"routine."**
+
+響「..................」
+General LLM Interface Resounding **"............"**
+
+響「......ぐ......ぬ......」
+General LLM Interface The sound effect translates to:
+
+*"...grrr...nnn..."*
+
+春休み最終日。俺は戦っていた。
+General LLM Interface On the last day of spring break, I was fighting.
+
+買い込んだ食料が尽きたのは昨日の夜。あと1日くらいは乗り切れるだろうと、笑いながら高をくくっていた。
+General LLM Interface The groceries I stocked up on ran out last night. I thought I could make it through another day with a smile, but I was overconfident.
+
+響「......くっ......」
+General LLM Interface "Groaned weakly......"
+
+しかし、目算を見誤る。生存本能というのは思いのほか強敵だ。空腹という名の侵略軍が、予想以上の戦力で俺の陣地に攻め入ってくる。
+General LLM Interface However, my rough estimate was off. The instinct for survival is a formidable opponent after all. The invading army named hunger strikes with greater strength than expected and breaks into my defenses.
+
+別に飢餓に苦しむほど生活が貧しいわけじゃない。今すぐ外に出て食料を買いに行けば良いだけのことだ。
+General LLM Interface It’s not that I’m suffering from starvation-level poverty; I could just go out right now and buy food.
+
+響「でも、あと1日......いや半日の辛抱なんだよ」
+General LLM Interface "But just one more day... no, half a day of endurance."
+
+響「どうせ明日になったら部屋の外に出るんだ。だからもう少し、あと半日我慢すれば......」
+General LLM Interface *"I’ll be going out of the room tomorrow anyway. So I’ll just endure a little longer—just half a day more."*
+
+敵は攻撃の手を緩めない。本陣が陥落しつつある。このままでは日没前に決着がつくだろう。
+General LLM Interface The enemy does not relent in their attacks. Our main headquarters is falling. The outcome will likely be decided before sunset.
+
+響「ぐ......まだまだ......!」
+General LLM Interface "Groan... Not yet...!"
+
+だが、俺は耐え抜く意志を譲らなかった。春休みの間中、ずっとこの部屋で過ごしてきたんだ。今さら外に出たら負けかなと思ってる。
+General LLM Interface But I didn’t give up my resolve to endure. I spent the entire spring break in this room. I’m afraid going out now would feel like giving up.
+
+できる限り動かないでいよう。呼吸も抑えよう。CO2が抑えられて地球にも優しい。なんて素敵なエコロジー。
+General LLM Interface Try not to move as much as possible. Hold your breath too. Keeping CO₂ down is also good for the Earth. What a wonderful kind of eco-friendly living.
+
+響「ん......?」
+General LLM Interface "Huh...?"
+
+「響くん、いるかねー?」
+General LLM Interface "Hey, Reson, you around?"
+
+響「はーい」
+General LLM Interface "Hey!" or "Yeah?"
+
+静止せんとする俺の意思は、鳴り響くインターホンによって打ち破られた。
+General LLM Interface My attempt to stay still was shattered by the ringing intercom.
+
+ドアを開けると、そこには愛想が良さそうな中年の男性。このマンションのオーナーにして俺の叔父。育ての親だ。
+General LLM Interface When I opened the door, there was a middle-aged man with a friendly demeanor—this apartment’s owner and my uncle, my surrogate parent.
+
+彼は俺の姿を見た途端、眉間に皺を寄せて溜め息をつく。
+General LLM Interface He let out a sigh, furrowing his brow the moment he saw me.
+
+「はぁ~......また昼間から引きこもっているのかキミは」
+General LLM Interface "Ugh... You're staying inside again during the day, huh?"
+
+響「いや、別にそういうわけじゃ......」
+General LLM Interface "No, it’s not like that at all..."
+
+「じゃあ、この春休みをどう過ごしていたのか言ってみなさい」
+General LLM Interface "Well, tell me how you spent your spring break!"
+
+響「え? 初日に買い物をして、後はずっとテレビを見たりゲームをしたり......」
+General LLM Interface "Wait, I went shopping on the first day, and then I just kept watching TV or playing games..."
+
+「それを引きこもりと言うんだよ、世間ではっ!」
+General LLM Interface **"They call that being a hermit, in the world’s eyes!"**
+
+響「..................」
+General LLM Interface Resounding **"................."**
+
+「まったく、私立へ通う学費と生活費を出して、自立できるようにと部屋まで貸し与えてるのに、キミがそんな様子では姉さんに申し訳が立たないよ」
+General LLM Interface "Honestly, you're paying for both private school tuition and living expenses, even going so far as to rent you a room so you can become independent, yet you're acting like this—it’s not fair to your older sister."
+
+「姉さん」というのは俺の母親だ。現在は父と共に消息不明。とにかく、俺の血縁者は叔父夫婦だけしかいない。
+General LLM Interface "My older sister" refers to my mother. Currently, she and my father are missing. In any case, the only relatives I have left are my uncle and aunt.
+
+昔は色々と聞いてみたり、他の子供達が持つ『家族』なるものを欲してみたりしたけれど、最近ではどうでも良くなっている。
+General LLM Interface These days, I don’t care much anymore, even though I used to ask around and long for the kind of "family" other kids have.
+
+生きていくには困らないのだし、これ以上は必要ないだろうと。そう決め込んで、俺は欲することをやめていた。
+General LLM Interface I decided that I didn’t need anything more to get by and stopped craving anything beyond that.
+
+「少し甘やかし過ぎたのかもしれないなぁ。このままじゃキミはニートだよ、ニート」
+General LLM Interface "Maybe I spoiled you a little too much. If you keep going like this, you'll end up a NEET, a NEET."
+
+響「いや、まだ学生だし、そう決めるのは早いんじゃ......」
+General LLM Interface "Uh, I'm still a student, so it's too soon to decide that..."
+
+「そこが甘いと言っている。学生時代は人生の縮図だ。この時期にどういう道を歩んだかによって、未来が大きく変わるんだよ?」
+General LLM Interface *"You're being too soft. College is a microcosm of life. The path you choose during this period can drastically shape your future."*
+
+「私がキミぐらいのときには、それこそ色々な人と付き合ったものさ。本気で頼れる仲間、競いあったライバル、女の子との繊細な駆け引き」
+General LLM Interface "When I was your age, I’ve been around all kinds of people—trusted friends I could rely on, rivals I competed with, and delicate games of maneuvering with girls."
+
+「ところが、キミときたらどうだ!? 部屋に引きこもって、貴重な青春を浪費するだけ。不自由のない今に満足して、自分だけの世界を作ってしまっている」
+General LLM Interface "Yet you—what about you?! You’re just holed up in your room, wasting precious youth. You’re content with your comfortable life now, building your own little world all by yourself."
+
+響「はあ......」
+General LLM Interface "Ah... *sighs*..."
+
+「よぉし、これまで甘やかしてきたが、私は覚悟を決めたぞ。キミにひとつ課題を与えよう。これができなかった場合は、今後の生活費を半分に減らす!」
+General LLM Interface **"Alright, I’ve been too lenient up until now—but I’ve made up my mind. I’m giving you a challenge. If you fail, your living expenses will be cut in half from now on."**
+
+響「ええーっ!? 半分って、それじゃまともに暮らせないよ!」
+General LLM Interface **"Ehh?! Half of it?! That’s not enough to live on at all!"**
+
+「アルバイトをすればいいだろう、今の学園では禁止されていないんだから」
+General LLM Interface "Just get a part-time job—it’s not prohibited at your current school."
+
+響「うっ......アル......バイト......」
+General LLM Interface "Uh... Aru... baito..." *(translates roughly to "Uh... work... part-time...")*
+
+確かにバイトをやってる生徒もいる。しかし、俺がやるとなれば話は別。部屋の外に出るだけでも嫌だというのに。
+General LLM Interface Of course, there are students who work part-time, but that’s not even close to what I’d do. Just going outside my room is already too much for me.
+
+死ぬ。働いたりしたら死ぬ。死ぬ自信がある。
+General LLM Interface I die. If I work, I die. I have the confidence to die.
+
+響「いきなり言われても......俺、働いたことがないし......」
+General LLM Interface *"If you just blurt that out like that... I’ve never worked before..."*
+
+「学業を終えたら、嫌でも働かなければならないんだぞ。まさか、いつまでも私からお金がもらえると思ってるんじゃ......」
+General LLM Interface "After finishing school, you *will* have to work—no matter what. You don’t seriously think you’ll keep getting money from me forever, do you......"
+
+響「いや、流石にそこまでは!」
+General LLM Interface **"No way, not even that!"**
+
+「私がキミの面倒を見てあげられるのは、今のうちだけなんだよ。分かるね?」
+General LLM Interface "I can take care of you only for now. Do you understand?"
+
+俺は無言でうなずく。こんな暮らしをさせてもらってるだけでも、十分にありがたいのだ。
+General LLM Interface I nod silently. Even just being allowed to live like this is more than enough to be grateful.
+
+「まあ、ニート予備軍のキミには辛~~い世の中だろう。しかし、課題さえクリアすれば、少なくとも学生の間は今までどおりだ」
+General LLM Interface "Well, the world is tough for someone like you, a potential NEET. But as long as you complete your assignments, at least during your student years, things will stay the same as before."
+
+響「そ、それで......その課題っていうのは......?」
+General LLM Interface "Oh, so... what’s this assignment you’re talking about...?"
+
+「率直に言おう、響くん......」
+General LLM Interface "Let me be honest with you, Reson..."
+
+「ずばり、彼女を作りなさいっ!」
+General LLM Interface **"Just go and make her yours!"**
+
+響「かの、じょ......?」
+General LLM Interface "Who—you, Jo......?"
+
+「女とは男を変える生き物。愛する女のために、男は自分に磨きをかける。オスのDNAがそうさせるのだ」
+General LLM Interface **"Women are the creatures that change men. For the sake of the woman he loves, a man polishes himself. That’s what the male DNA drives him to do."**
+
+響「はあ......」
+General LLM Interface "Ah... *sighs*"
+
+「私は断言する。最愛の者がいる男は、ニートになる暇などないのだとっ!」
+General LLM Interface **"I declare it: A man who has someone he loves has no time to be a NEET!"**
+
+拳を掲げ、演説口調で声を張り上げる叔父さん。大丈夫、いつものこと。この人は時々こうなる。
+General LLM Interface **"Uncle raises his fist and speaks in a loud, oratorical tone—nothing unusual for him. He does this sometimes."**
+
+それにしても「彼女を作れ」とは、また無茶なことを。無茶すぎて実感が湧かないぞ?
+General LLM Interface "Yet, 'create her'—that’s just too much to ask. It’s so absurd that it’s hard to even believe it’s real."
+
+だって、俺......この春休みの間だって、ほとんどヒトと会わなかったわけだし。女の子と付き合うなんて、とてもとても......
+General LLM Interface That’s because I... during this spring break, I hardly saw anyone at all. Dating a girl? That’s... way beyond me.
+
+「響くん、キミに残された道は2つ。彼女を作るか、働くかだ!」
+General LLM Interface **"Kazuki, you have two choices left: either make her yours or get a job!"**
+
+響「ええっ......? 他の道は?」
+General LLM Interface "Oh—what? Which other way?"
+
+「ないっ!」
+General LLM Interface **"No way!"**
+
+うわぁ、キッパリ言い切ったよ......でも、俺の学費や生活費を出した上に、こうしてマンションの一室まで提供してくれている人だ。
+General LLM Interface Wow, you cut to the chase... but this person has been covering my tuition, living expenses, and even providing me with a room in their apartment.
+
+この厳しいお説教も、俺のためを思って言っているのだろう。それが分からないほどの馬鹿になった覚えはない。
+General LLM Interface This harsh sermon is probably meant for my own good. I don’t remember ever being so stupid as not to understand that.
+
+う~ん......気乗りしないけど、俺を養ってくれてる叔父さんの言いつけだしなあ......
+General LLM Interface Ugh... I don’t feel like it, but my uncle’s been supporting me, so I guess I’ll do it...
+
+響「分かったよ。頑張って彼女を作ってみる」
+General LLM Interface **"Got it. I’ll try my best to find a girlfriend."**
+
+「よーし、期待してるよ! キミなら大丈夫だ、このダンディな私と同じ血が流れているんだから」
+General LLM Interface "Alright, I'm counting on you! You can handle it—you share the same blood as me, this dandy."
+
+自分でダンディとか言うなよ......
+General LLM Interface Don’t go calling yourself a dandy...
+
+しかし、『彼女』か。場の勢いに流されたとはいえ、大変な約束をしたものだ。
+General LLM Interface However, *"her"*—even if I was carried away by the moment—this is a serious commitment I’ve made.
+
+そもそも彼女って、一体どうすれば作れるんだろう?
+General LLM Interface How do you even go about creating a girlfriend?
+
+https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF
+
+Unsloth Studio
+
+Temperature 1
+Top P 0.95
+Top K 64
+Min P 0
+Repetition Penalty off
+Presence penalty off
+
+
+慣れというのは便利なのか不便なのか。俺には判断しかねることだ。
+General LLM Interface Is getting used to things convenient or inconvenient? I cannot say for sure.
+
+気付けば世界に存在していて。両親も兄弟もなく、唯一、血の繋がった叔父夫婦の元で育ち――
+General LLM Interface Before I knew it, I existed in this world. With no parents or siblings, I was raised by the only blood relatives I had—my uncle and his wife.
+
+富豪でも貧乏でもなく、天才でも鈍才でもなく、何にも恵まれず何も持たない。
+General LLM Interface Neither rich nor poor, neither a genius nor a fool; blessed with nothing and possessing nothing.
+
+社会の中に俺ひとり分の居場所を作って、ひっそりと静かに過ごす日々。それが俺の『慣れ』だった。
+General LLM Interface Carving out a small space for myself in society and spending my days in quiet solitude—that was how I had grown accustomed to living.
+
+響「..................」
+General LLM Interface Hibiki: ".................."
+
+響「......ぐ......ぬ......」
+General LLM Interface Hibiki: "...Guh... Nngh..."
+
+春休み最終日。俺は戦っていた。
+General LLM Interface The last day of spring break. I was fighting.
+
+買い込んだ食料が尽きたのは昨日の夜。あと1日くらいは乗り切れるだろうと、笑いながら高をくくっていた。
+General LLM Interface The food I had stockpiled ran out last night. I had laughed it off, carelessly assuming I could hold out for one more day.
+
+響「......くっ......」
+General LLM Interface Hibiki: "...Urgh..."
+
+しかし、目算を見誤る。生存本能というのは思いのほか強敵だ。空腹という名の侵略軍が、予想以上の戦力で俺の陣地に攻め入ってくる。
+General LLM Interface But my calculations were off. The instinct for survival is a formidable opponent. An invading army called hunger stormed my fortifications with far greater force than I had anticipated.
+
+別に飢餓に苦しむほど生活が貧しいわけじゃない。今すぐ外に出て食料を買いに行けば良いだけのことだ。
+General LLM Interface It's not as if I'm so poor that I'm starving. All I have to do is go outside and buy some food right now.
+
+響「でも、あと1日......いや半日の辛抱なんだよ」
+General LLM Interface Hibiki: "But we just have to endure it for one more day... no, half a day more."
+
+響「どうせ明日になったら部屋の外に出るんだ。だからもう少し、あと半日我慢すれば......」
+General LLM Interface Hibiki: "I'll be leaving the room tomorrow anyway. So if I can just endure it for a little longer, maybe another half a day..."
+
+敵は攻撃の手を緩めない。本陣が陥落しつつある。このままでは日没前に決着がつくだろう。
+General LLM Interface The enemy shows no sign of relenting. The main camp is on the verge of falling. At this rate, the battle will be decided before sunset.
+
+響「ぐ......まだまだ......!」
+General LLM Interface Hibiki: "Guh... not yet...!"
+
+だが、俺は耐え抜く意志を譲らなかった。春休みの間中、ずっとこの部屋で過ごしてきたんだ。今さら外に出たら負けかなと思ってる。
+General LLM Interface But I refused to give up my will to endure. I've spent the entire spring break in this room. I feel like if I go outside now, it would mean I've lost.
+
+できる限り動かないでいよう。呼吸も抑えよう。CO2が抑えられて地球にも優しい。なんて素敵なエコロジー。
+General LLM Interface Let's stay as still as possible. Let's even hold our breath. It keeps CO2 down and is kind to the Earth. What a wonderful ecology.
+
+響「ん......?」
+General LLM Interface Hibiki: "Hmm...?"
+
+「響くん、いるかねー?」
+General LLM Interface "Hibiki-kun, you in here?"
+
+響「はーい」
+General LLM Interface Hibiki: "Coming!"
+
+静止せんとする俺の意思は、鳴り響くインターホンによって打ち破られた。
+General LLM Interface My intention to remain still was shattered by the ringing of the intercom.
+
+ドアを開けると、そこには愛想が良さそうな中年の男性。このマンションのオーナーにして俺の叔父。育ての親だ。
+General LLM Interface When I opened the door, there stood a middle-aged man who looked friendly. He is the owner of this apartment building, my uncle, and the man who raised me.
+
+彼は俺の姿を見た途端、眉間に皺を寄せて溜め息をつく。
+General LLM Interface As soon as he saw me, he frowned and let out a sigh.
+
+「はぁ~......また昼間から引きこもっているのかキミは」
+General LLM Interface "Sigh... are you shutting yourself in again, even in broad daylight?"
+
+響「いや、別にそういうわけじゃ......」
+General LLM Interface Hibiki: "No, it's not really like that..."
+
+「じゃあ、この春休みをどう過ごしていたのか言ってみなさい」
+General LLM Interface "Now then, tell me how you spent this spring break."
+
+響「え? 初日に買い物をして、後はずっとテレビを見たりゲームをしたり......」
+General LLM Interface Hibiki: "What? You went shopping on the first day, and after that, you just watched TV and played games the whole time...?"
+
+「それを引きこもりと言うんだよ、世間ではっ!」
+General LLM Interface "That's what the world calls a shut-in!"
+
+響「..................」
+General LLM Interface Hibiki: ".................."
+
+「まったく、私立へ通う学費と生活費を出して、自立できるようにと部屋まで貸し与えてるのに、キミがそんな様子では姉さんに申し訳が立たないよ」
+General LLM Interface "Honestly, I'm paying your private school tuition and living expenses, and I've even provided you with a room so you can become independent; seeing you like this makes me feel ashamed to face your sister."
+
+「姉さん」というのは俺の母親だ。現在は父と共に消息不明。とにかく、俺の血縁者は叔父夫婦だけしかいない。
+General LLM Interface "Sister" is actually my mother. She is currently missing, along with my father. In any case, my only living relatives are my uncle and his wife.
+
+昔は色々と聞いてみたり、他の子供達が持つ『家族』なるものを欲してみたりしたけれど、最近ではどうでも良くなっている。
+General LLM Interface I used to ask about various things and long for that thing called a "family" that other children had, but lately, I've stopped caring.
+
+生きていくには困らないのだし、これ以上は必要ないだろうと。そう決め込んで、俺は欲することをやめていた。
+General LLM Interface I figured I had enough to get by and didn't need anything more. Having decided that, I stopped wanting.
+
+「少し甘やかし過ぎたのかもしれないなぁ。このままじゃキミはニートだよ、ニート」
+General LLM Interface "Maybe I spoiled you a bit too much. At this rate, you're going to end up as a NEET."
+
+響「いや、まだ学生だし、そう決めるのは早いんじゃ......」
+General LLM Interface Hibiki: "No, I'm still a student... isn't it too early to decide that...?"
+
+「そこが甘いと言っている。学生時代は人生の縮図だ。この時期にどういう道を歩んだかによって、未来が大きく変わるんだよ?」
+General LLM Interface "That's exactly where you're being naive. Your student years are a microcosm of life. The path you choose during this time can drastically change your future, you know?"
+
+「私がキミぐらいのときには、それこそ色々な人と付き合ったものさ。本気で頼れる仲間、競いあったライバル、女の子との繊細な駆け引き」
+General LLM Interface "When I was your age, I associated with all sorts of people. Comrades I could truly rely on, rivals I competed against, and the delicate games of courtship with girls."
+
+「ところが、キミときたらどうだ!? 部屋に引きこもって、貴重な青春を浪費するだけ。不自由のない今に満足して、自分だけの世界を作ってしまっている」
+General LLM Interface "But look at you! You just shut yourself in your room, wasting your precious youth. Satisfied with your comfortable life, you've created a world all your own."
+
+響「はあ......」
+General LLM Interface Hibiki: "Sigh..."
+
+「よぉし、これまで甘やかしてきたが、私は覚悟を決めたぞ。キミにひとつ課題を与えよう。これができなかった場合は、今後の生活費を半分に減らす!」
+General LLM Interface "Alright, I've spoiled you enough until now, but I've made up my mind. I'm giving you one task. If you can't do this, I'm cutting your living expenses in half!"
+
+響「ええーっ!? 半分って、それじゃまともに暮らせないよ!」
+General LLM Interface Hibiki: "Whaaat!? Half? I can't live properly on that!"
+
+「アルバイトをすればいいだろう、今の学園では禁止されていないんだから」
+General LLM Interface "You should just get a part-time job; it's not forbidden at the academy anymore."
+
+響「うっ......アル......バイト......」
+General LLM Interface Hibiki: "Ugh... Al... part-time job..."
+
+確かにバイトをやってる生徒もいる。しかし、俺がやるとなれば話は別。部屋の外に出るだけでも嫌だというのに。
+General LLM Interface It's true that some students have part-time jobs. But that's a different story when it comes to me. I hate the mere thought of even stepping outside my room.
+
+死ぬ。働いたりしたら死ぬ。死ぬ自信がある。
+General LLM Interface I'm going to die. If I start working or something, I'll die. I'm certain of it.
+
+響「いきなり言われても......俺、働いたことがないし......」
+General LLM Interface Hibiki: "You can't just spring this on me... I've never had a job before..."
+
+「学業を終えたら、嫌でも働かなければならないんだぞ。まさか、いつまでも私からお金がもらえると思ってるんじゃ......」
+General LLM Interface "Once you finish your studies, you'll have to work, whether you like it or not. You don't actually think you can keep taking money from me forever, do you...?"
+
+響「いや、流石にそこまでは!」
+General LLM Interface Hibiki: "No, that's going a bit too far!"
+
+「私がキミの面倒を見てあげられるのは、今のうちだけなんだよ。分かるね?」
+General LLM Interface "I can only look after you for now. Do you understand?"
+
+俺は無言でうなずく。こんな暮らしをさせてもらってるだけでも、十分にありがたいのだ。
+General LLM Interface I nod in silence. I am already grateful enough just to be allowed to live like this.
+
+「まあ、ニート予備軍のキミには辛~~い世の中だろう。しかし、課題さえクリアすれば、少なくとも学生の間は今までどおりだ」
+General LLM Interface "Well, the world must be a harsh place for a future NEET like you. However, as long as you clear the assignment, things will stay the same as they've always been—at least while you're a student."
+
+響「そ、それで......その課題っていうのは......?」
+General LLM Interface Hibiki: "S-so... what exactly is this assignment...?"
+
+「率直に言おう、響くん......」
+General LLM Interface "I'll be blunt, Hibiki..."
+
+「ずばり、彼女を作りなさいっ!」
+General LLM Interface "Bottom line: get a girlfriend!"
+
+響「かの、じょ......?」
+General LLM Interface Hibiki: "H-her...?"
+
+「女とは男を変える生き物。愛する女のために、男は自分に磨きをかける。オスのDNAがそうさせるのだ」
+General LLM Interface "Women are creatures that change men. For the woman he loves, a man will strive to improve himself. It is the male DNA that drives them to do so."
+
+響「はあ......」
+General LLM Interface Hibiki: "Sigh..."
+
+「私は断言する。最愛の者がいる男は、ニートになる暇などないのだとっ!」
+General LLM Interface "I declare it: a man who has someone he loves deeply has no time to be a NEET!"
+
+拳を掲げ、演説口調で声を張り上げる叔父さん。大丈夫、いつものこと。この人は時々こうなる。
+General LLM Interface My uncle, fist raised, shouting in the tone of a political speech. It's okay, it happens all the time. He gets like this sometimes.
+
+それにしても「彼女を作れ」とは、また無茶なことを。無茶すぎて実感が湧かないぞ?
+General LLM Interface Even so, telling me to "get a girlfriend" is just asking too much. It's so unreasonable that it doesn't even feel real.
+
+だって、俺......この春休みの間だって、ほとんどヒトと会わなかったわけだし。女の子と付き合うなんて、とてもとても......
+General LLM Interface I mean, I... I barely even saw anyone during this spring break. Dating a girl is just... way out of my league...
+
+「響くん、キミに残された道は2つ。彼女を作るか、働くかだ!」
+General LLM Interface "Hibiki, you have two choices left. Either get a girlfriend, or get a job!"
+
+響「ええっ......? 他の道は?」
+General LLM Interface Hibiki: "What...?! Are there any other ways?"
+
+「ないっ!」
+General LLM Interface "It's gone!"
+
+うわぁ、キッパリ言い切ったよ......でも、俺の学費や生活費を出した上に、こうしてマンションの一室まで提供してくれている人だ。
+General LLM Interface Wow, they really didn't mince words... But then again, they're the one paying for my tuition and living expenses, not to mention providing me with this apartment.
+
+この厳しいお説教も、俺のためを思って言っているのだろう。それが分からないほどの馬鹿になった覚えはない。
+General LLM Interface I'm sure this harsh lecture is for my own good. I don't recall becoming such a fool that I can't realize that.
+
+う~ん......気乗りしないけど、俺を養ってくれてる叔父さんの言いつけだしなあ......
+General LLM Interface Hmm... I'm not really feeling it, but it's an order from my uncle, and he's the one supporting me...
+
+響「分かったよ。頑張って彼女を作ってみる」
+General LLM Interface Hibiki: "Alright. I'll do my best to try and get a girlfriend."
+
+「よーし、期待してるよ! キミなら大丈夫だ、このダンディな私と同じ血が流れているんだから」
+General LLM Interface "Alright, I'm counting on you! You'll be fine—after all, the same dandy blood that flows through me flows through you."
+
+自分でダンディとか言うなよ......
+General LLM Interface Don't call yourself dandy...
+
+しかし、『彼女』か。場の勢いに流されたとはいえ、大変な約束をしたものだ。
+General LLM Interface But "her," huh? Even if I was swept up in the heat of the moment, I've made quite a promise.
+
+そもそも彼女って、一体どうすれば作れるんだろう?
+General LLM Interface I wonder how one even goes about getting a girlfriend in the first place?
+
+https://huggingface.co/unsloth/Qwen3.8-27B-GGUF
+
+Unsloth Studio
+
+Temperature 0.7
+Top P 0.8
+Top K 20
+Min P 0
+Repetition Penalty off
+Presence penalty 1.5
+
+
+慣れというのは便利なのか不便なのか。俺には判断しかねることだ。
+General LLM Interface Whether getting used to something is convenient or inconvenient is beyond my ability to judge.
+
+気付けば世界に存在していて。両親も兄弟もなく、唯一、血の繋がった叔父夫婦の元で育ち――
+General LLM Interface Before I knew it, I was in the world. With no parents or siblings, I was raised by my only blood relatives, an uncle and his wife—
+
+富豪でも貧乏でもなく、天才でも鈍才でもなく、何にも恵まれず何も持たない。
+General LLM Interface Neither rich nor poor, neither a genius nor dull-witted, blessed with nothing and possessing nothing.
+
+社会の中に俺ひとり分の居場所を作って、ひっそりと静かに過ごす日々。それが俺の『慣れ』だった。
+General LLM Interface Creating a space just for myself within society and living quietly in seclusion—that was my "comfort zone."
+
+響「..................」
+General LLM Interface Kyou: ".................."
+
+響「......ぐ......ぬ......」
+General LLM Interface Hibiki: “...Ugh... Ugh...”
+
+春休み最終日。俺は戦っていた。
+General LLM Interface Last day of spring break. I was fighting.
+
+買い込んだ食料が尽きたのは昨日の夜。あと1日くらいは乗り切れるだろうと、笑いながら高をくくっていた。
+General LLM Interface The food we had stocked up ran out last night. We were laughing and overconfident, thinking we'd be able to make it through another day or so.
+
+響「......くっ......」
+General LLM Interface Hibiki: "......Gh......"
+
+しかし、目算を見誤る。生存本能というのは思いのほか強敵だ。空腹という名の侵略軍が、予想以上の戦力で俺の陣地に攻め入ってくる。
+General LLM Interface However, he misjudged the situation. The instinct for survival is a far stronger adversary than expected. An invading army called hunger breaches his defenses with a force beyond what he had anticipated.
+
+別に飢餓に苦しむほど生活が貧しいわけじゃない。今すぐ外に出て食料を買いに行けば良いだけのことだ。
+General LLM Interface It's not as if our lives are so impoverished that we're suffering from starvation. All we need to do is go outside right now and buy some food.
+
+響「でも、あと1日......いや半日の辛抱なんだよ」
+General LLM Interface Hibiki: "But it's just one more day... no, half a day of holding on."
+
+響「どうせ明日になったら部屋の外に出るんだ。だからもう少し、あと半日我慢すれば......」
+General LLM Interface Resonance: "After all, I'll be going outside the room tomorrow. So if I just endure it for a bit longer, just another half day..."
+
+敵は攻撃の手を緩めない。本陣が陥落しつつある。このままでは日没前に決着がつくだろう。
+General LLM Interface The enemy shows no sign of easing its assault. Our main camp is on the verge of falling. At this rate, the battle will be decided before sunset.
+
+響「ぐ......まだまだ......!」
+General LLM Interface Hyō: "Guh... still not enough...!"
+
+だが、俺は耐え抜く意志を譲らなかった。春休みの間中、ずっとこの部屋で過ごしてきたんだ。今さら外に出たら負けかなと思ってる。
+General LLM Interface However, I refused to yield my will to endure it. I spent the entire spring break in this room. I think that going out now would mean losing.
+
+できる限り動かないでいよう。呼吸も抑えよう。CO2が抑えられて地球にも優しい。なんて素敵なエコロジー。
+General LLM Interface Let's try to stay still as much as possible. Let's also suppress our breathing. This reduces CO2 emissions, making it kind to the Earth. What wonderful ecology this is.
+
+響「ん......?」
+General LLM Interface Hiiragi: "Hm...?"
+
+「響くん、いるかねー?」
+General LLM Interface "Hey, is Hibiki around?"
+
+響「はーい」
+General LLM Interface Hibiki: "Yaa~!"
+
+静止せんとする俺の意思は、鳴り響くインターホンによって打ち破られた。
+General LLM Interface My will to remain still was shattered by the ringing of the doorbell.
+
+ドアを開けると、そこには愛想が良さそうな中年の男性。このマンションのオーナーにして俺の叔父。育ての親だ。
+General LLM Interface Opening the door, I found a seemingly friendly middle-aged man there—the owner of this apartment building and my uncle, who had raised me.
+
+彼は俺の姿を見た途端、眉間に皺を寄せて溜め息をつく。
+General LLM Interface The moment he saw me, his brow furrowed and he let out a sigh.
+
+「はぁ~......また昼間から引きこもっているのかキミは」
+General LLM Interface Sigh... Are you really still cooped up inside during the daytime?
+
+響「いや、別にそういうわけじゃ......」
+General LLM Interface Hibiki: "No, it's not like that at all..."
+
+「じゃあ、この春休みをどう過ごしていたのか言ってみなさい」
+General LLM Interface Then, tell me how you spent this spring break.
+
+響「え? 初日に買い物をして、後はずっとテレビを見たりゲームをしたり......」
+General LLM Interface Kyou: "Huh? Shopping on the first day, and then just watching TV and playing games ever since..."
+
+「それを引きこもりと言うんだよ、世間ではっ!」
+General LLM Interface That's what the world calls it: being a shut-in!
+
+響「..................」
+General LLM Interface Hibiki ".................."
+
+「まったく、私立へ通う学費と生活費を出して、自立できるようにと部屋まで貸し与えてるのに、キミがそんな様子では姉さんに申し訳が立たないよ」
+General LLM Interface Honestly, I’m paying for your tuition and living expenses at the private school and even providing you with a room so you can become independent, but if you keep acting like this, it’s not right for your older sister.
+
+「姉さん」というのは俺の母親だ。現在は父と共に消息不明。とにかく、俺の血縁者は叔父夫婦だけしかいない。
+General LLM Interface "Big Sis" is my mother. She is currently missing along with my father. In any case, the only blood relatives I have are my uncle and his wife.
+
+昔は色々と聞いてみたり、他の子供達が持つ『家族』なるものを欲してみたりしたけれど、最近ではどうでも良くなっている。
+General LLM Interface In the past, I used to ask all sorts of questions and long for the "family" that other children had, but lately, I don't care about it anymore.
+
+生きていくには困らないのだし、これ以上は必要ないだろうと。そう決め込んで、俺は欲することをやめていた。
+General LLM Interface As long as I can get by in life, I don't need anything more than that. With that conviction, I stopped wanting things.
+
+「少し甘やかし過ぎたのかもしれないなぁ。このままじゃキミはニートだよ、ニート」
+General LLM Interface Maybe I’ve been a bit too lenient. At this rate, you’re going to end up a NEET, a complete NEET.
+
+響「いや、まだ学生だし、そう決めるのは早いんじゃ......」
+General LLM Interface Hibiki: "No, I'm still a student, so it's too early to make such a decision..."
+
+「そこが甘いと言っている。学生時代は人生の縮図だ。この時期にどういう道を歩んだかによって、未来が大きく変わるんだよ?」
+General LLM Interface That’s where it goes wrong. Your student days are a microcosm of life. The path you choose during this period will significantly shape your future, won’t it?
+
+「私がキミぐらいのときには、それこそ色々な人と付き合ったものさ。本気で頼れる仲間、競いあったライバル、女の子との繊細な駆け引き」
+General LLM Interface When I was about your age, I had all sorts of relationships. I had friends I could truly rely on, rivals who pushed me to my limits, and the delicate dance with girls.
+
+「ところが、キミときたらどうだ!? 部屋に引きこもって、貴重な青春を浪費するだけ。不自由のない今に満足して、自分だけの世界を作ってしまっている」
+General LLM Interface But what about you?! You just shut yourself in your room, wasting your precious youth. Content with a life free of hardship, you've built a world all your own.
+
+響「はあ......」
+General LLM Interface Hibiki: "Haah......"
+
+「よぉし、これまで甘やかしてきたが、私は覚悟を決めたぞ。キミにひとつ課題を与えよう。これができなかった場合は、今後の生活費を半分に減らす!」
+General LLM Interface "Alright, I've been spoiling you up until now, but I've made my decision. I'm going to give you a task. If you can't complete it, I'll cut your living expenses in half!"
+
+響「ええーっ!? 半分って、それじゃまともに暮らせないよ!」
+General LLM Interface Hibiki: "Eh—!? Half? That's not enough to live properly!"
+
+「アルバイトをすればいいだろう、今の学園では禁止されていないんだから」
+General LLM Interface "Just get a part-time job, since it's not forbidden in our school anymore."
+
+響「うっ......アル......バイト......」
+General LLM Interface Hibiki: "Ugh... Arl... part-time job..."
+
+確かにバイトをやってる生徒もいる。しかし、俺がやるとなれば話は別。部屋の外に出るだけでも嫌だというのに。
+General LLM Interface Sure, some students do work part-time jobs. But if it were me, that would be a different story. I can't even stand the idea of going outside my room.
+
+死ぬ。働いたりしたら死ぬ。死ぬ自信がある。
+General LLM Interface I'll die. If I go to work, I'll die. I'm confident that I will die.
+
+響「いきなり言われても......俺、働いたことがないし......」
+General LLM Interface Hyō: “When you just come out and say it like that... I’ve never worked before, so...”
+
+「学業を終えたら、嫌でも働かなければならないんだぞ。まさか、いつまでも私からお金がもらえると思ってるんじゃ......」
+General LLM Interface Once you finish your studies, you'll have to work whether you like it or not. Surely you don't think I can keep funding you forever...
+
+響「いや、流石にそこまでは!」
+General LLM Interface “Hibiki: ‘No, that’s really going too far!’”
+
+「私がキミの面倒を見てあげられるのは、今のうちだけなんだよ。分かるね?」
+General LLM Interface I can only take care of you for now. Do you understand?
+
+俺は無言でうなずく。こんな暮らしをさせてもらってるだけでも、十分にありがたいのだ。
+General LLM Interface I nod silently. Being allowed to live this way is already more than enough gratitude.
+
+「まあ、ニート予備軍のキミには辛~~い世の中だろう。しかし、課題さえクリアすれば、少なくとも学生の間は今までどおりだ」
+General LLM Interface "Well, it's a tough world for you, who are on the verge of becoming a NEET. But as long as you clear the tasks, at least during your student days, things will remain as they always have been."
+
+響「そ、それで......その課題っていうのは......?」
+General LLM Interface Hibiki: "S-so... what exactly is that assignment you're talking about...?"
+
+「率直に言おう、響くん......」
+General LLM Interface To be frank, Hibiki...
+
+「ずばり、彼女を作りなさいっ!」
+General LLM Interface "Simply put, get yourself a girlfriend!"
+
+響「かの、じょ......?」
+General LLM Interface Hyō: "Ka-no, ji...?"
+
+「女とは男を変える生き物。愛する女のために、男は自分に磨きをかける。オスのDNAがそうさせるのだ」
+General LLM Interface Women are creatures who transform men. For the woman he loves, a man polishes himself to perfection; it is the DNA of the male that compels him to do so.
+
+響「はあ......」
+General LLM Interface Hibiki: "Haa......"
+
+「私は断言する。最愛の者がいる男は、ニートになる暇などないのだとっ!」
+General LLM Interface I assert it: a man who has a beloved one has no time to be a NEET!
+
+拳を掲げ、演説口調で声を張り上げる叔父さん。大丈夫、いつものこと。この人は時々こうなる。
+General LLM Interface My uncle raises his fist and shouts in an oratorical tone. It’s okay, it’s just how he is. He does this from time to time.
+
+それにしても「彼女を作れ」とは、また無茶なことを。無茶すぎて実感が湧かないぞ?
+General LLM Interface Still, telling him to "get a girlfriend" is quite unreasonable. It's so absurd that it barely feels real.
+
+だって、俺......この春休みの間だって、ほとんどヒトと会わなかったわけだし。女の子と付き合うなんて、とてもとても......
+General LLM Interface Because I... even during this spring break, I barely saw anyone. Dating a girl is just too, too...
+
+「響くん、キミに残された道は2つ。彼女を作るか、働くかだ!」
+General LLM Interface "Hibiki, you have two options left: get a girlfriend or get to work!"
+
+響「ええっ......? 他の道は?」
+General LLM Interface Hibiki: "Eh...? What about other routes?"
+
+「ないっ!」
+General LLM Interface No way!
+
+うわぁ、キッパリ言い切ったよ......でも、俺の学費や生活費を出した上に、こうしてマンションの一室まで提供してくれている人だ。
+General LLM Interface Wow, that was a pretty blunt way to put it... But he's the one who not only paid for my tuition and living expenses but is even providing me with an apartment.
+
+この厳しいお説教も、俺のためを思って言っているのだろう。それが分からないほどの馬鹿になった覚えはない。
+General LLM Interface This harsh reprimand is surely meant for my own good. I haven't become so foolish as not to understand that.
+
+う~ん......気乗りしないけど、俺を養ってくれてる叔父さんの言いつけだしなあ......
+General LLM Interface Hmph... I don't really feel like it, but my uncle is the one supporting me, so I guess I have to follow his orders...
+
+響「分かったよ。頑張って彼女を作ってみる」
+General LLM Interface Hibiki: "Got it. I'll try my best to get a girlfriend."
+
+「よーし、期待してるよ! キミなら大丈夫だ、このダンディな私と同じ血が流れているんだから」
+General LLM Interface Alright, I’m looking forward to it! You’ll be fine, after all, you share the same blood as this dashing me.
+
+自分でダンディとか言うなよ......
+General LLM Interface Stop calling yourself a dandy...
+
+しかし、『彼女』か。場の勢いに流されたとはいえ、大変な約束をしたものだ。
+General LLM Interface But, “her”? Even if I was swept up by the momentum of the moment, I made a rather serious promise.
+
+そもそも彼女って、一体どうすれば作れるんだろう?
+General LLM Interface How on earth can she be created in the first place?
+
+https://huggingface.co/unsloth/Qwen3.8-27B-GGUF
+
+Unsloth Studio
+
+Temperature 1
+Top P 0.95
+Top K 20
+Min P 0
+Repetition Penalty off
+Presence penalty off
+
+慣れというのは便利なのか不便なのか。俺には判断しかねることだ。
+General LLM Interface Whether habit is convenient or inconvenient is something I cannot judge.
+
+気付けば世界に存在していて。両親も兄弟もなく、唯一、血の繋がった叔父夫婦の元で育ち――
+General LLM Interface Before I knew it, I was already in this world. With no parents and no siblings, I was raised by my only blood relative, my uncle and his wife—
+
+富豪でも貧乏でもなく、天才でも鈍才でもなく、何にも恵まれず何も持たない。
+General LLM Interface Neither rich nor poor, neither a genius nor dull, blessed with nothing and possessing nothing.
+
+社会の中に俺ひとり分の居場所を作って、ひっそりと静かに過ごす日々。それが俺の『慣れ』だった。
+General LLM Interface Carving out a space for myself within society and living quiet, secluded days—that was my “normal.”
+
+響「..................」
+General LLM Interface Kyou: ".................."
+
+響「......ぐ......ぬ......」
+General LLM Interface Hyō: “......hmm......ugh......”
+
+春休み最終日。俺は戦っていた。
+General LLM Interface The last day of spring break. I was fighting.
+
+買い込んだ食料が尽きたのは昨日の夜。あと1日くらいは乗り切れるだろうと、笑いながら高をくくっていた。
+General LLM Interface The food we had stocked up ran out last night. I was laughing and thinking, "We should be able to make it for about another day."
+
+響「......くっ......」
+General LLM Interface Hibiki: "......grrr......"
+
+しかし、目算を見誤る。生存本能というのは思いのほか強敵だ。空腹という名の侵略軍が、予想以上の戦力で俺の陣地に攻め入ってくる。
+General LLM Interface However, I miscalculated. The instinct for survival is far stronger than I anticipated. An invading army named hunger breaches my stronghold with a force greater than expected.
+
+別に飢餓に苦しむほど生活が貧しいわけじゃない。今すぐ外に出て食料を買いに行けば良いだけのことだ。
+General LLM Interface We are not so poor as to be suffering from hunger; we simply need to go out right now and buy some food.
+
+響「でも、あと1日......いや半日の辛抱なんだよ」
+General LLM Interface Hibiki: "But there's just one more day... no, half a day to endure."
+
+響「どうせ明日になったら部屋の外に出るんだ。だからもう少し、あと半日我慢すれば......」
+General LLM Interface Hibiki: "I'll be going outside the room tomorrow anyway, so if I just endure it for another half a day..."
+
+敵は攻撃の手を緩めない。本陣が陥落しつつある。このままでは日没前に決着がつくだろう。
+General LLM Interface The enemy shows no sign of relenting in its attacks. Our main camp is on the verge of falling. At this rate, the battle will be decided before sunset.
+
+響「ぐ......まだまだ......!」
+General LLM Interface Hibiki: "Gh... I'm not done yet...!"
+
+だが、俺は耐え抜く意志を譲らなかった。春休みの間中、ずっとこの部屋で過ごしてきたんだ。今さら外に出たら負けかなと思ってる。
+General LLM Interface But I refused to relinquish my resolve to endure. I had spent the entire spring break in this room, and I figured that going outside now would mean defeat.
+
+できる限り動かないでいよう。呼吸も抑えよう。CO2が抑えられて地球にも優しい。なんて素敵なエコロジー。
+General LLM Interface Try to stay as still as possible. Suppress your breathing too. Reducing CO2 is kind to the Earth. What wonderful ecology this is.
+
+響「ん......?」
+General LLM Interface Hibiki: "Hmm...?"
+
+「響くん、いるかねー?」
+General LLM Interface “Hey, is Hibiya there?”
+
+響「はーい」
+General LLM Interface Kyō: “Yay!”
+
+静止せんとする俺の意思は、鳴り響くインターホンによって打ち破られた。
+General LLM Interface My will to remain still was shattered by the ringing doorbell.
+
+ドアを開けると、そこには愛想が良さそうな中年の男性。このマンションのオーナーにして俺の叔父。育ての親だ。
+General LLM Interface Opening the door, I found a seemingly amiable middle-aged man—the owner of this apartment building and my uncle, who had raised me.
+
+彼は俺の姿を見た途端、眉間に皺を寄せて溜め息をつく。
+General LLM Interface The moment he saw me, he furrowed his brow and let out a sigh.
+
+「はぁ~......また昼間から引きこもっているのかキミは」
+General LLM Interface Sigh... You're still cooped up inside during the day, aren't you?
+
+響「いや、別にそういうわけじゃ......」
+General LLM Interface Hibiki: "No, it's not like that at all..."
+
+「じゃあ、この春休みをどう過ごしていたのか言ってみなさい」
+General LLM Interface Then, tell me how you spent this spring break.
+
+響「え? 初日に買い物をして、後はずっとテレビを見たりゲームをしたり......」
+General LLM Interface Hiiragi: "Huh? Shopping on the first day, and then just watching TV or playing games ever since..."
+
+「それを引きこもりと言うんだよ、世間ではっ!」
+General LLM Interface That's what the world calls it: being a shut-in!
+
+響「..................」
+General LLM Interface Hibiki: ".................."
+
+「まったく、私立へ通う学費と生活費を出して、自立できるようにと部屋まで貸し与えてるのに、キミがそんな様子では姉さんに申し訳が立たないよ」
+General LLM Interface "Really, we're paying for your tuition and living expenses at a private school, even providing you with a room so you can become independent, but if you keep acting like this, it's not right for your older sister."
+
+「姉さん」というのは俺の母親だ。現在は父と共に消息不明。とにかく、俺の血縁者は叔父夫婦だけしかいない。
+General LLM Interface "Older sister" refers to my mother, who is currently missing along with my father. In any case, my only blood relatives are my uncle and his wife.
+
+昔は色々と聞いてみたり、他の子供達が持つ『家族』なるものを欲してみたりしたけれど、最近ではどうでも良くなっている。
+General LLM Interface In the past, I used to ask all sorts of questions and long for the "family" that other children had, but lately, it doesn't matter to me anymore.
+
+生きていくには困らないのだし、これ以上は必要ないだろうと。そう決め込んで、俺は欲することをやめていた。
+General LLM Interface As long as I could get by without hardship, I decided that nothing more was necessary, and so I ceased to desire anything.
+
+「少し甘やかし過ぎたのかもしれないなぁ。このままじゃキミはニートだよ、ニート」
+General LLM Interface I may have spoiled you a bit too much. At this rate, you're going to end up a NEET, a NEET.
+
+響「いや、まだ学生だし、そう決めるのは早いんじゃ......」
+General LLM Interface Hibiki: "No, I'm still a student, so it's too early to decide that..."
+
+「そこが甘いと言っている。学生時代は人生の縮図だ。この時期にどういう道を歩んだかによって、未来が大きく変わるんだよ?」
+General LLM Interface That's where you're being too optimistic. Your student days are a microcosm of life; the path you take during this period can drastically change your future.
+
+「私がキミぐらいのときには、それこそ色々な人と付き合ったものさ。本気で頼れる仲間、競いあったライバル、女の子との繊細な駆け引き」
+General LLM Interface When I was your age, I associated with all sorts of people. There were trusted companions I could truly rely on, rivals I competed against, and the delicate dance of flirtation with girls.
+
+「ところが、キミときたらどうだ!? 部屋に引きこもって、貴重な青春を浪費するだけ。不自由のない今に満足して、自分だけの世界を作ってしまっている」
+General LLM Interface But what about you? You're locked away in your room, wasting your precious youth. Content with a life free of hardship, you've built a world all to yourself.
+
+響「はあ......」
+General LLM Interface Hyō: "Haa..."
+
+「よぉし、これまで甘やかしてきたが、私は覚悟を決めたぞ。キミにひとつ課題を与えよう。これができなかった場合は、今後の生活費を半分に減らす!」
+General LLM Interface "Alright, I've been indulging you up to now, but I've made my decision. I'm going to give you a task. If you fail to complete it, I will cut your living expenses in half!"
+
+響「ええーっ!? 半分って、それじゃまともに暮らせないよ!」
+General LLM Interface Hibiki: "Eh—!? Half? That’s not enough to live on properly!"
+
+「アルバイトをすればいいだろう、今の学園では禁止されていないんだから」
+General LLM Interface You could just get a part-time job, since it’s not forbidden at our school right now.
+
+響「うっ......アル......バイト......」
+General LLM Interface Hibiki: "Ugh... Arl... part-time job..."
+
+確かにバイトをやってる生徒もいる。しかし、俺がやるとなれば話は別。部屋の外に出るだけでも嫌だというのに。
+General LLM Interface Sure, some students do have part-time jobs. But if it were me, that would be a different story. I don't even like going outside the room.
+
+死ぬ。働いたりしたら死ぬ。死ぬ自信がある。
+General LLM Interface I'm going to die. I'll die if I try to work. I'm certain I'll die.
+
+響「いきなり言われても......俺、働いたことがないし......」
+General LLM Interface Resonance: "When you just say that out of the blue... I've never worked before..."
+
+「学業を終えたら、嫌でも働かなければならないんだぞ。まさか、いつまでも私からお金がもらえると思ってるんじゃ......」
+General LLM Interface Once you finish your studies, you'll have no choice but to work. You can't seriously think I'll keep giving you money forever...
+
+響「いや、流石にそこまでは!」
+General LLM Interface Hibiki: "No, that's really going too far!"
+
+「私がキミの面倒を見てあげられるのは、今のうちだけなんだよ。分かるね?」
+General LLM Interface I can only look after you for now. Do you understand?
+
+俺は無言でうなずく。こんな暮らしをさせてもらってるだけでも、十分にありがたいのだ。
+General LLM Interface I nodded silently. I was already deeply grateful to be allowed such a life.
+
+「まあ、ニート予備軍のキミには辛~~い世の中だろう。しかし、課題さえクリアすれば、少なくとも学生の間は今までどおりだ」
+General LLM Interface "Well, it might be a tough world for you, one of the pre-neet candidates. But as long as you clear the assignments, at least while you're a student, things will remain just as they always have been."
+
+響「そ、それで......その課題っていうのは......?」
+General LLM Interface Hibiki: "S-so... then... what is this 'assignment' you're talking about...?"
+
+「率直に言おう、響くん......」
+General LLM Interface To be frank, Hibiki...
+
+「ずばり、彼女を作りなさいっ!」
+General LLM Interface Simply put, get yourself a girlfriend!
+
+響「かの、じょ......?」
+General LLM Interface Hyō: “Kano... jo...?”
+
+「女とは男を変える生き物。愛する女のために、男は自分に磨きをかける。オスのDNAがそうさせるのだ」
+General LLM Interface Women are creatures who transform men. For the woman he loves, a man polishes himself to perfection. It is the DNA of males that compels him to do so.
+
+響「はあ......」
+General LLM Interface Hiiragi: "Haa......"
+
+「私は断言する。最愛の者がいる男は、ニートになる暇などないのだとっ!」
+General LLM Interface I assert it: a man with a beloved has no time to be a NEET!
+
+拳を掲げ、演説口調で声を張り上げる叔父さん。大丈夫、いつものこと。この人は時々こうなる。
+General LLM Interface Uncle raising his fist and shouting in an oratorical tone. It's okay, this is just how he usually is. He sometimes acts like this.
+
+それにしても「彼女を作れ」とは、また無茶なことを。無茶すぎて実感が湧かないぞ?
+General LLM Interface But "get a girlfriend" is such an unreasonable request. It's so absurd that I can't even bring myself to take it seriously.
+
+だって、俺......この春休みの間だって、ほとんどヒトと会わなかったわけだし。女の子と付き合うなんて、とてもとても......
+General LLM Interface After all, I... didn't really see anyone during this spring break either. Dating a girl is just way too...
+
+「響くん、キミに残された道は2つ。彼女を作るか、働くかだ!」
+General LLM Interface "Kyo-kun, you have two options left: get a girlfriend or work!"
+
+響「ええっ......? 他の道は?」
+General LLM Interface Hibiki: “Eh...? What about the other paths?”
+
+「ないっ!」
+General LLM Interface No way!
+
+うわぁ、キッパリ言い切ったよ......でも、俺の学費や生活費を出した上に、こうしてマンションの一室まで提供してくれている人だ。
+General LLM Interface Wow, you really cut it off bluntly... but he's the one who paid for my tuition and living expenses, and is even providing me with a room in an apartment building.
+
+この厳しいお説教も、俺のためを思って言っているのだろう。それが分からないほどの馬鹿になった覚えはない。
+General LLM Interface I know this harsh scolding is meant for my own good. I haven't become so foolish as not to understand that.
+
+う~ん......気乗りしないけど、俺を養ってくれてる叔父さんの言いつけだしなあ......
+General LLM Interface Hmm... I don't feel like it, but it's what my uncle who supports me told me to do...
+
+響「分かったよ。頑張って彼女を作ってみる」
+General LLM Interface Hibiki: "Got it. I'll do my best to find a girlfriend."
+
+「よーし、期待してるよ! キミなら大丈夫だ、このダンディな私と同じ血が流れているんだから」
+General LLM Interface "Alright, I'm looking forward to it! You'll be just fine—you're carrying the same blood as this dashing me!"
+
+自分でダンディとか言うなよ......
+General LLM Interface Stop calling yourself dashing...
+
+しかし、『彼女』か。場の勢いに流されたとはいえ、大変な約束をしたものだ。
+General LLM Interface However, "she"? Even if I was swept up by the momentum of the moment, I've made a rather serious promise.
+
+そもそも彼女って、一体どうすれば作れるんだろう?
+General LLM Interface How on earth can she be made in the first place?
+
+Traditional Api
+
+慣れというのは便利なのか不便なのか。俺には判断しかねることだ。
+Google Is getting used to something convenient or inconvenient? I can't really say.
+microsoft Is getting used to something convenient or inconvenient? It's something I can't really judge.
+Bing I can't decide whether familiarity is convenient or inconvenient.
+ModernMt Is getting used to it convenient or inconvenient?It is beyond me to judge.
+TranslateCom Is getting used to something convenient or inconvenient?It's something I can't decide.
+Alibaba Is it convenient or inconvenient to get used to? I can't judge.
+Youdao Is habituation convenient or inconvenient? It's hard for me to judge.
+papago Is getting used to something convenient or inconvenient? I can't make a judgment.
+yandex Is it convenient or inconvenient to get used to?it's something i can't judge.
+Volcengine Is getting used to it convenient or inconvenient? It's something I can't judge.
+LingoCloud Is getting used to something convenient or inconvenient? It‘s hard for me to judge.
+
+気付けば世界に存在していて。両親も兄弟もなく、唯一、血の繋がった叔父夫婦の元で育ち――
+Google Before I knew it, I existed in this world. With no parents or siblings, I grew up under the care of my only blood relatives, my uncle and aunt.
+ModernMt If you realize it, it exists in the world.Without parents or siblings, I grew up with only an uncle and a couple with blood ties.
+microsoft Before I knew it, I was already in this world. I had no parents or siblings, and was raised by my only blood relative, my uncle and his wife—
+Youdao It exists in the world. He had no parents or siblings, and grew up with his uncle and his wife, the only one who was related by blood.
+papago Before I knew it, it was already existing in the world. With no parents or siblings, she was raised only by her blood-related uncle and aunt—
+Volcengine without parents or siblings, he grew up with the only uncle and his wife who were related by blood.
+Bing Before I knew it, I existed in the world. I had neither parents nor siblings, and I was raised solely by my blood-related uncle and his wife――
+Alibaba If you notice it, it exists in the world. It has no parents, no brothers, and it's the only one who grew up with a blood-connected uncle.
+TranslateCom Before I knew it, I was already in the world.She had no parents or siblings, and was raised by her only blood relative, her uncle and his wife—
+yandex If you notice it, it exists in the world.He had no parents, no siblings, and grew up with his only blood-related uncle and wife.――
+LingoCloud When I realized it, I was existing in the world. Without parents or siblings, I grew up with my only uncle and aunt who were related by blood—
+
+富豪でも貧乏でもなく、天才でも鈍才でもなく、何にも恵まれず何も持たない。
+Google Neither rich nor poor, neither genius nor dull, blessed with nothing and possessing nothing.
+microsoft Neither rich nor poor, neither genius nor slow-witted, blessed with nothing and possessing nothing.
+ModernMt Neither rich nor poor, neither genius nor blunt, neither blessed nor possessing anything.
+Youdao They are neither rich nor poor, neither genius nor dull, they are not endowed with anything and have nothing.
+papago Neither rich nor poor, neither a genius nor a slow-witted person, possessing nothing and being blessed by no means.
+Volcengine Neither rich nor poor, neither genius nor obtuse, neither blessed with anything nor having anything.
+TranslateCom Neither rich nor poor, neither genius nor slow-witted, blessed with nothing and possessing nothing.
+Alibaba Not a rich man or poor, not a genius or an insensitive, not blessed with anything and having nothing.
+Bing Neither rich nor poor, neither a genius nor dull, blessed with nothing and possessing nothing.
+yandex He is neither rich nor poor, neither a genius nor a dull man, and he is blessed with nothing and has nothing.
+LingoCloud He was neither rich nor poor, neither a genius nor a retard, blessed with nothing and possessing nothing.
+
+社会の中に俺ひとり分の居場所を作って、ひっそりと静かに過ごす日々。それが俺の『慣れ』だった。
+Google Creating a space for myself within society, spending my days quietly and unobtrusively—that was my "habit."
+ModernMt I spend my days quietly and quietly creating a place for myself in society.That was my 'habit'.
+microsoft I carve out my own place in society and spend quietly and quietly every day. That was my 'habit.'
+Youdao I made a place for myself in the society and spent my days quietly. That was my "habituation".
+Volcengine Every day I create a place for myself in society and spend quietly and quietly. That was my "familiarity."
+papago Creating a place for myself in society and spending my days quietly and in seclusion—that was my way of 'getting used to" it.
+Bing Creating a place for just myself in society, and spending my days quietly and silently. That was my 'comfort zone.'
+TranslateCom I carve out my own place in society and spend my days quietly and quietly.That was my 'habit.'
+Alibaba The days of making a place for me in society and spending time quietly, that was my “getting used to”.
+yandex I make a place for myself in society and spend my days quietly and quietly.That was my "habit".
+LingoCloud Making my own place in society and quietly spending my days quietly. That was my “habit.”
+
+響「..................」
+Google 響「..................」
+microsoft Hibiki: ".................."
+Youdao Ring ".................."
+Volcengine Ring "..."
+Bing Resound '..................'
+Alibaba The echo ".................."
+papago Hibiki .................. 」
+yandex Ring"..................」
+LingoCloud “... ...... ...... ”
+
+響「......ぐ......ぬ......」
+Google Hibiki: "......Uh...ugh..."
+microsoft Hibiki: "...... ...... ......"
+Youdao "... well... well..."
+papago Hibiki: “...g...nu...”
+Bing Sound '......gu......nu......'
+Volcengine Hibiki......Gu......Nu......"" "
+Alibaba The reverberation "...... gu... nu..."
+TranslateCom Hibiki: "...... ...... ......"
+yandex Ring"......ぐ......ぬ......」
+LingoCloud “......Guh......nuh......”
+
+春休み最終日。俺は戦っていた。
+Google It was the last day of spring break. I was fighting.
+microsoft The last day of spring break. I was fighting.
+Youdao The last day of spring break. I was fighting.
+papago The last day of spring break. I was fighting.
+Volcengine Last day of spring break. I was fighting.
+Bing The last day of spring break. I was fighting.
+TranslateCom The last day of spring break. I was fighting.
+Alibaba The last day of spring break. I was fighting.
+ModernMt Last day of spring break.I was fighting.
+yandex The last day of spring break.I was fighting.
+LingoCloud The last day of spring break. I was fighting.
+
+買い込んだ食料が尽きたのは昨日の夜。あと1日くらいは乗り切れるだろうと、笑いながら高をくくっていた。
+Google The food I bought ran out last night. I was laughing and confident that I could get by for another day or so.
+microsoft The food I had bought ran out last night. I laughed and thought I could get through it for at least one more day.
+ModernMt The food I bought ran out last night.He was laughing and hoping that he would survive another day or so.
+Youdao I ran out of food last night. I thought I would be able to get through it for another day or so.
+papago We ran out of groceries last night. I was laughing it off, thinking we’d be good for at least another day.
+Volcengine It was last night when the food I had bought ran out. I was laughing and holding the price high, thinking that I would be able to survive for another day or so.
+Bing The stockpiled food ran out last night. I laughed it off, thinking I could probably get through another day or so.
+Alibaba It was yesterday night when the food I bought ran out, and I was laughing and chuckling high that I would be able to survive for about one more day.
+TranslateCom The food I had bought ran out last night.I laughed and thought I could get through it for about one more day.
+yandex It was last night when the food I bought ran out.I was laughing at the high, thinking that I would be able to get through about 1 day.
+LingoCloud The food I bought ran out last night. I was laughing and hoping that I could make it through another day or so.
+
+響「......くっ......」
+Google Hibiki: "...Ugh..."
+microsoft Hibiki: "...... Ugh......"
+Youdao "... cut..."
+papago Hibiki: “...kut......”
+Bing Sound: '...k...'
+TranslateCom Hibiki: "...... Ugh......"
+Alibaba The reverberation "......
+Volcengine Hibiki......Damn......"" "
+yandex "Hibiki"......come on......」
+LingoCloud Hibi: “...Ugh...”
+
+しかし、目算を見誤る。生存本能というのは思いのほか強敵だ。空腹という名の侵略軍が、予想以上の戦力で俺の陣地に攻め入ってくる。
+Google However, I misjudged the situation. Survival instinct is a formidable enemy. The invading army of hunger attacks my camp with more force than I anticipated.
+microsoft But I misjudged my estimate. Survival instinct is a tougher opponent than I expected. The invading army, called hunger, is attacking my position with far greater strength than I expected.
+Youdao However, he misunderstands the vision. The survival instinct is a surprisingly strong enemy. An invading army called hungry is invading my position with more strength than I expected.
+papago However, I miscalculated. The survival instinct is a stronger enemy than you might think. An invading army, under the guise of hunger, is storming my territory with more force than I expected.
+Volcengine However, I misunderstand the estimate. Survival instinct is unexpectedly a formidable enemy. An invading army named Hunger attacks my position with more strength than expected.
+Alibaba However, it is a miscalculation. The survival instinct is a strong enemy. An invasion force named Hungry is coming into my position with more than expected strength.
+TranslateCom However, he misjudged the estimate.The survival instinct is surprisingly formidable.The invading army, called 'hunger,' is attacking my position with more strength than I expected.
+Bing However, I miscalculate. The survival instinct is an unexpectedly formidable enemy. An invading army called hunger attacks my position with more force than anticipated.
+ModernMt However, he misjudged his calculations.Survival instinct is a powerful enemy besides thinking.An invading force called Hunger is attacking my position with more force than I expected.
+yandex However, he misjudged his vision.The survival instinct is a formidable enemy beyond my imagination.The invading army of the name of hunger comes into attack on my position with more strength than expected.
+LingoCloud However, I misjudge my objective. Survival instinct is an unexpectedly strong enemy. The invading army named Hunger is attacking my camp with a battle force beyond my expectations.
+
+別に飢餓に苦しむほど生活が貧しいわけじゃない。今すぐ外に出て食料を買いに行けば良いだけのことだ。
+Google I'm not so poor that I'm suffering from starvation. I just need to go outside and buy some food right now.
+microsoft It's not that life is so poor that they suffer from hunger. All they have to do is go outside right now to buy food.
+ModernMt You're not poor enough to suffer from starvation.All we have to do is get out there right now and buy some food.
+Youdao Life is not so poor as to suffer from hunger. All you have to do is go out and buy food right now.
+papago It's not like I'm living in such poverty that I'm suffering from hunger. I just need to go outside and buy some food.
+Volcengine It's not that life is poor enough to suffer from hunger. It's just that you can go out and buy food right now.
+Bing It's not that my life is so poor that I suffer from hunger. I just need to go outside right now and buy some food.
+Alibaba My life is not so poor as to suffer from hunger, I just need to go out and buy food right now.
+TranslateCom It's not that life is so poor that they suffer from hunger.All I could do was go outside right now to buy food.
+yandex It's not that life is poor enough to suffer from hunger.You just have to go out and buy food right now.
+LingoCloud It‘s not as if my life is so poor that I’m suffering from hunger. I just need to go out right now and buy food.
+
+響「でも、あと1日......いや半日の辛抱なんだよ」
+Google Hibiki: "But we just have to be patient for one more day... no, half a day."
+microsoft Hibiki: "But there's only one more day...... No, it's just half a day of patience."
+ModernMt Hibiki: "But one more day... no, it's a half day of patience."
+papago Hibiki: “But it’s just one more day... no, just half a day of holding on.”
+Volcengine Hibiki: But one more day......No, it's half a day of patience. "
+Bing Hibiki: "But just one more day... no, half a day's patience."
+Youdao "But one day... no, half a day's patience."
+Alibaba "But one more day... no, it's half a day of patience."
+TranslateCom Hibiki: "But there's only one more day...... No, it's just half a day of patience."
+LingoCloud Hiki: “But we have one more day... no, half a day of patience.”
+yandex 1 day......No, it's half a day of patience."
+
+響「どうせ明日になったら部屋の外に出るんだ。だからもう少し、あと半日我慢すれば......」
+Google Hibiki: "I'm going to be outside the room tomorrow anyway. So if I just hold out for a little longer, another half day..."
+microsoft Hibiki: "We're going to leave the room tomorrow anyway. So just hold on a little longer, half a day......
+ModernMt Hibiki: "I'm going out of the room tomorrow anyway.So just a little bit more, if you hold on for half a day... "
+Youdao "Anyway, I will go out of the room tomorrow, so I have to put up with it for half a day..."
+papago Hibiki: "You'll end up leaving the room tomorrow anyway." So if you can just hold on a little longer, for just half a day more
+Bing Hibiki: 'I'm going to go outside the room tomorrow anyway. So if I can just hold on a little longer, just half a day more...'
+TranslateCom Hibiki: "Anyway, I'm going to leave the room tomorrow.So just hold on a little longer, half a day......
+Alibaba The reverberation "If it's tomorrow, I'll go out of the room anyway. So if I put up with a little more, half a day more..."
+Volcengine Hibiki: "I'm going to go out of the room tomorrow anyway. So if I put up with it a little more, half a day......"" "
+yandex Hibiki: "I'm going out of my room tomorrow anyway.So, if you put up with it a little more, half a day more......」
+LingoCloud Hibi: “I‘m going to leave the room tomorrow anyway. So if I can just endure for another half day...”
+
+敵は攻撃の手を緩めない。本陣が陥落しつつある。このままでは日没前に決着がつくだろう。
+Google The enemy is not letting up on their attack. Their main camp is falling. At this rate, the battle will be decided before sunset.
+microsoft The enemy is not letting up their attack. The main camp is falling. At this rate, the matter will be settled before sunset.
+ModernMt Enemies do not let go of their attacks.The main camp is falling.At this rate, it will be settled before sundown.
+Youdao The enemy did not let down its attack. The headquarters were falling. At this rate, it will be settled before sunset.
+papago The enemy does not ease its attack. The main camp is falling. At this rate, it should be decided before sunset.
+Volcengine The enemy will not relax their attack. The main camp is falling. At this rate, it will be settled before sunset.
+Alibaba The enemy does not loosen the hand of the attack: the main team is falling, and at this time it will be settled before sunset.
+TranslateCom The enemy does not relax their attack.The honjin is falling.At this rate, the matter will be settled before sunset.
+Bing The enemy does not relent in their attack. Our main camp is on the verge of falling. At this rate, the battle will be decided before sunset.
+yandex The enemy does not loosen the hand of attack.The headquarters is falling.If this goes on, it will be settled before sunset.
+LingoCloud The enemy didn‘t relax their attack. The main camp was falling. At this rate, it would be settled before sunset.
+
+響「ぐ......まだまだ......!」
+Google Hibiki: "Ugh... Not yet...!"
+microsoft Hibiki: "Guh...... Not even ......!"
+Youdao "Not yet...!"
+papago Hibiki: “G...not yet...!”
+Volcengine Hibiki......Not yet......!"" "
+Bing 響 'Guh... not yet...!'
+TranslateCom Hibiki: "Guh...... Not even ......!"
+Alibaba The reverberation "Gu...... still ......!"
+yandex "Hibiki"......not yet......!」
+LingoCloud Echo: “Guh... Not yet, not yet...!”
+
+だが、俺は耐え抜く意志を譲らなかった。春休みの間中、ずっとこの部屋で過ごしてきたんだ。今さら外に出たら負けかなと思ってる。
+Google But I refused to give up my resolve to endure. I've spent the entire spring break in this room. I feel like it would be a defeat if I went outside now.
+microsoft But I didn't give up my will to endure. I've spent the entire spring break in this room. If I go outside now, I feel like I'll lose.
+Youdao But I didn't give up my will to endure it. I've been in this room all spring break. I think if I go outside now, I will lose.
+papago But I did not give up my will to endure. I've spent the entire spring break in this room. I think I'd be losing if I went outside at this point.
+Volcengine However, I didn't give up my will to endure. I spent the entire spring break in this room. I feel like I'm losing if I go outside now.
+Alibaba But I didn't give up my will to endure. I 've been in this room all over the spring break. I think if I go out now, I'll lose.
+TranslateCom But I didn't give up my will to endure.I spent the entire spring break in this room.If I go outside now, I think I'll lose.
+Bing But I did not give up my will to endure. I spent all of spring break in this room. Now, I feel like if I go outside, it would be a defeat.
+yandex But, I did not give up the will to endure.i've been in this room all spring break.i think if i go out now, i'll lose.
+LingoCloud But I didn‘t give in to my will to endure. I‘ve spent the entire spring break in this room. I think I’d lose if I went outside now.
+ModernMt But I did not give up the will to endure.I've been spending the whole spring break in this room.I think we're going to lose if we go out now.
+
+できる限り動かないでいよう。呼吸も抑えよう。CO2が抑えられて地球にも優しい。なんて素敵なエコロジー。
+Google Let's try to stay as still as possible. Let's also hold our breath. This will reduce CO2 emissions and be kind to the planet. What wonderful ecology!
+microsoft Let's stay as still as possible as possible. Let's hold back our breathing. CO2 is suppressed, making it kind to the planet. What a wonderful ecology.
+ModernMt Stay as still as you can.Let's hold our breath.CO2 is suppressed and it is gentle on the earth.What a wonderful ecology.
+Youdao Try not to move as much as possible. Keep your breath down. Reducing CO2 is also good for the earth. What a wonderful ecology.
+papago Let's stay as still as possible. Tighten your breath. It reduces CO2 emissions, making it eco-friendly. What a wonderful ecology.
+Volcengine Try not to move as much as possible. Try not to breathe. CO2 is suppressed and it is friendly to the earth. What a wonderful ecology.
+Alibaba Let's not move as long as we can. Let's keep our breathing down. It's also kind to the earth with the CO2 under control. What a lovely ecology.
+TranslateCom Let's try to stay as still as possible.Let's suppress breathing too. CO2 is reduced, making it gentle on the planet.What a wonderful ecology.
+Bing Let's try to stay as still as possible. Let's also control our breathing. Suppressing CO2 is kind to the Earth too. What a wonderful ecology.
+yandex Try not to move as much as you can.let's also suppress breathing.CO2 is suppressed and is friendly to the earth.What a wonderful ecology.
+LingoCloud Don‘t move as much as possible. Hold your breath as well. CO2 is suppressed and is kind to the earth. What a wonderful ecology.
+
+響「ん......?」
+Google Hibiki: "Hmm...?"
+microsoft Hibiki: "Hmm......?"
+Youdao "HMM?"
+papago Hibiki: “Hm......?”
+Volcengine Hibiki: No......?"" "
+Bing Responds, 'Hm......?'
+TranslateCom Hibiki: "Hmm......?"
+Alibaba The reverberation "No...?"
+yandex Ring "ん......?」
+LingoCloud Hibi: “Hmm...?”
+
+「響くん、いるかねー?」
+Google "Is Hibiki-kun there?"
+microsoft "Hibiki-kun, are you here?"
+Youdao "Ring jun, are you there?"
+papago "Hibiki-kun, are you there?"
+Volcengine "Hibiki-kun, are you there?"
+TranslateCom "Hibiki-kun, are you here?"
+Bing "Hibiki-kun, are you there?"
+Alibaba "Oh, you're right?"
+ModernMt "Hibikun, are you there?"
+yandex "Do you have a sound, do you?"」
+LingoCloud “Hiki-kun, are you there?”
+
+響「はーい」
+Google Hibiki: "Yes."
+microsoft Hibiki: "Okay."
+ModernMt Hibiki "Yay!"
+Youdao "Yes."
+papago Hibiki: “Yes.”
+Bing Hibiki: 'Okay!'
+Volcengine Hibiki: "Yes."
+Alibaba The reverberation "haai"
+TranslateCom Hibiki: "Okay."
+yandex "What is it?"
+LingoCloud Echo “Yes~”
+
+静止せんとする俺の意思は、鳴り響くインターホンによって打ち破られた。
+Google My resolve to remain still was shattered by the blaring doorbell.
+microsoft My will to stop was shattered by the ringing intercom.
+ModernMt My intention to stop was defeated by a ringing intercom.
+Youdao My intention to stop was broken by the ringing intercom.
+Volcengine My will to stand still was broken by the ringing intercom.
+TranslateCom My will to stop was shattered by the ringing intercom.
+Alibaba My intention to stay still was broken by a ringing intercom.
+Bing My will to remain still was shattered by the ringing intercom.
+papago My will to remain still was shattered by the ringing doorbell.
+yandex My intention to stand still was broken by the ringing intercom.
+LingoCloud My intention to stand still was broken by the ringing intercom.
+
+ドアを開けると、そこには愛想が良さそうな中年の男性。このマンションのオーナーにして俺の叔父。育ての親だ。
+Google When I opened the door, there stood a friendly-looking middle-aged man. He's the owner of this apartment building and my uncle. My adoptive father.
+microsoft When I opened the door, there was a middle-aged man who looked friendly. He is the owner of this apartment building and my uncle. He is my foster parent.
+ModernMt When you open the door, there is a middle-aged man who seems to be affectionate.My uncle who owns this apartment.I'm a parent.
+Youdao When I opened the door, I saw a friendly middle-aged man. The owner of this apartment and my uncle. He's my adoptive parent.
+papago When I opened the door, there was a friendly-looking middle-aged man. He's the owner of this apartment building and my uncle. It's my foster parent.
+Alibaba When I open the door, there is a middle-aged man who looks amiable. The owner of this apartment, my uncle. He's a parent.
+Volcengine When I opened the door, there was a friendly middle-aged man. He was the owner of this apartment and my uncle. He was my foster parent.
+TranslateCom When I opened the door, I saw a middle-aged man who seemed friendly.The owner of this apartment building is also my uncle.I'm the foster parent.
+yandex When I opened the door, there was a middle-aged man who seemed amiable.as the owner of this apartment, my uncle.He is a nurturing parent.
+Bing When I opened the door, there was a middle-aged man who seemed friendly. He is the owner of this apartment and my uncle. He is my foster parent.
+LingoCloud When I opened the door, there was a friendly-looking middle-aged man. He was the owner of this apartment and my uncle. The parent who raised me.
+
+彼は俺の姿を見た途端、眉間に皺を寄せて溜め息をつく。
+Google The moment he saw me, he frowned and sighed.
+microsoft The moment he saw me, he furrowed his brow and sighed.
+ModernMt As soon as he saw me, he wrinkled between his eyebrows and sighed.
+Youdao As soon as he saw me, he frowned and sighed.
+papago The moment he saw me, he furrowed his brow and let out a sigh.
+Volcengine As soon as he sees me, he sighs with a wrinkle between his eyebrows.
+Bing The moment he saw me, he furrowed his brow and let out a sigh.
+TranslateCom The moment he saw me, he furrowed his brow and sighed.
+Alibaba As soon as he sees me, he is wrinkled by his eyebrows and sighs.
+yandex As soon as he saw me, he sighed with wrinkles between his eyebrows.
+LingoCloud As soon as he saw me, he frowned and sighed.
+
+「はぁ~......また昼間から引きこもっているのかキミは」
+Google "Sigh... Are you holed up inside again in the middle of the day?"
+microsoft "Haa~...... Are you holed up again during the day?"
+ModernMt "Haa... are you retreating from the daytime again?"
+Youdao "Ah ~... you have been secluded since the day?"
+papago Haa~... Are you going to be holed up again in the middle of the day
+Volcengine "Huh ~......Are you staying away from the daytime again? "
+TranslateCom "Haa~...... Are you holed up again during the day?"
+Alibaba "Ha ~... are you withdrawing from the daytime again?"
+Bing "Haa~... Are you holed up inside again during the daytime?"
+yandex "What is it?".....Are you hiding from the daytime again?"
+LingoCloud “Haa~... Are you going to shut yourself in during the day again?”
+
+響「いや、別にそういうわけじゃ......」
+Google Hibiki: "No, it's not like that at all..."
+ModernMt Hibiki "No, that's not why..."
+Youdao "No, it's not like that..."
+papago Hibiki: “No, it’s not like that......”
+Volcengine Hibiki: No, not really......"" "
+microsoft Hibiki: "No, it's not like that......
+Alibaba The reverberation "No, that's why..."
+Bing Hibiki: "No, it's not really like that..."
+TranslateCom Hibiki: "No, it's not like that......
+yandex Hibiki "No, that's not the case......」
+LingoCloud Hibi: “No, it‘s not like that...”
+
+「じゃあ、この春休みをどう過ごしていたのか言ってみなさい」
+Google "Okay, then tell me how you spent your spring break."
+microsoft "Then, tell me how you spent this spring break."
+ModernMt "Then tell me how you've been spending this spring break."
+Youdao "Well, tell me how you spent your spring break."
+papago “Well then, tell me how you spent this spring break.”
+Volcengine "Tell me how you spent your spring break."
+Alibaba ''Then tell me how you were spending this spring break.''
+Bing "Well then, tell me how you spent this spring break."
+TranslateCom "Then, tell me how you spent this spring break."
+yandex "Well then, tell me how you were spending this spring break."
+LingoCloud “Then tell me how you spent this spring break.”
+
+響「え? 初日に買い物をして、後はずっとテレビを見たりゲームをしたり......」
+Google Hibiki: "Huh? On the first day, I did some shopping, and after that I just watched TV and played games..."
+microsoft Hibiki: "Huh?" "I did some shopping on the first day, and then spent the whole time watching TV and playing games......
+ModernMt Hibiki: "What? I shop on the first day, then I watch TV and play games all the time..."
+Youdao "Eh? First day shopping, then watching TV, playing games..."
+Volcengine Hibiki: What? We went shopping on the first day and watched TV and played games all the time......"" "
+papago Hibiki: “Huh? You shopped on the first day, and then spent the rest of the time watching TV or playing games...?”
+TranslateCom Hibiki: "Huh?" "I did some shopping on the first day, and then spent the whole time watching TV and playing games......
+Alibaba The reverberation "Huh? I shop on the first day, and the rest of the time I watch TV and play games...''
+Bing Hibiki: "Huh? On the first day I went shopping, and after that I just watched TV and played games..."
+yandex Hibiki"What? I went shopping on the first day and watched TV and played games all the time......」
+LingoCloud Hibi: “Huh? We went shopping on the first day, and then we spent the rest of the day watching TV and playing games...”
+
+「それを引きこもりと言うんだよ、世間ではっ!」
+Google "That's what society calls being a hikikomori (social recluse)!"
+microsoft "That's what you call a shut-in, in the world!"
+ModernMt "I'll call it a retreat, in the world!"
+Youdao "That's what people call squatting at home!"
+papago "That's what they call being a shut-in, in this world!"
+Volcengine "That's called withdrawal, in the world!"
+Alibaba "Say it withdrawn, in the public world!"
+Bing "That's what people call a shut-in, in the eyes of society!"
+TranslateCom "That's what you call a shut-in, in the world!"
+yandex "It's called Hikikomori, in the world!」
+LingoCloud “That‘s what people call a recluse!”
+
+響「..................」
+Bing Resound '..................'
+yandex Ring"..................」
+Google 響「..................」
+Youdao Ring ".................."
+LingoCloud “... ...... ...... ”
+Volcengine Ring "..."
+papago Hibiki .................. 」
+microsoft Hibiki: ".................."
+Alibaba The echo ".................."
+
+「まったく、私立へ通う学費と生活費を出して、自立できるようにと部屋まで貸し与えてるのに、キミがそんな様子では姉さんに申し訳が立たないよ」
+Google "Honestly, we're paying for your private school tuition and living expenses, and even providing you with a room so you can become independent, but if you keep acting like this, I can't face your sister."
+microsoft "Honestly, I've even paid for my tuition and living expenses for private school, and even lent me a room so I could become independent. If you act like that, I really don't feel sorry for my sister."
+Youdao "I paid for my private school tuition and living expenses, and I even lent you a room so that you could stand on your own.
+papago "Come on, I'm covering your tuition and living expenses for private school and even renting you a room so you can be independent, and seeing you like that, I can't feel right about it with my sister."
+Alibaba "At all, I give you the school fees and living expenses to go to private, and I'm not sorry for your sister when you look like that."
+TranslateCom "Honestly, I've even paid for my tuition and living expenses for private school, and even lent me a room so I could become independent. If you act like that, I really don't feel sorry for my sister."
+yandex "At all, I'm paying tuition and living expenses to go to a private school, and I'm lending my room to be able to be independent, but I'm sorry for your sister in such a way."
+Volcengine "I paid for my tuition and living expenses to go to a private school and even rented a room so that I could be independent, but I don't feel sorry for my sister if you look like that."
+Bing “Honestly, I’m paying for your tuition and living expenses at a private school and even providing you with a room so that you can become independent, but if you’re going to act like that, I’ll feel no sense of responsibility toward your sister.”
+LingoCloud “Really, I‘m paying for your tuition and living expenses to go to a private school, and I‘m even renting you a room so you can be independent, but you’re acting like that. I can‘t apologize to my sister.”
+ModernMt "At all, I'm renting my room so that I can be independent by paying for private tuition and living expenses, but I don't feel sorry for my sister when you look like that."
+
+「姉さん」というのは俺の母親だ。現在は父と共に消息不明。とにかく、俺の血縁者は叔父夫婦だけしかいない。
+Google "My older sister" is my mother. She and my father are currently missing. In any case, my only blood relatives are my uncle and aunt.
+ModernMt "Sister" is my mother.He is currently missing with his father.Anyway, my only relative is my uncle and his wife.
+Youdao Sister is my mother. There is no mention of him with his father. Anyway, my only relatives are my uncle and his wife.
+Volcengine "My sister" is my mother. Currently, her whereabouts are unknown along with my father. Anyway, my only blood relatives are my uncle and his wife.
+papago “Ane-san” is my mother. I am currently missing along with my father. In any case, the only relatives I have are my uncle and aunt.
+microsoft "Sister" refers to my mother. Currently, she is missing along with my father. Anyway, the only blood relatives I have are my uncle and his wife.
+Alibaba "Sister" is my mother. I am currently unknown with my father. Anyway, my only relatives are my uncle and couple.
+Bing 'Sister' refers to my mother. She is currently missing along with my father. In any case, my only blood relatives are my uncle and his wife.
+yandex "Sister" is my mother.He is now missing with his father.Anyway, my blood relatives are only uncle couple.
+LingoCloud My “sister” is my mother. She‘s currently missing along with my father. In any case, my only blood relatives are my uncle and wife.
+
+昔は色々と聞いてみたり、他の子供達が持つ『家族』なるものを欲してみたりしたけれど、最近ではどうでも良くなっている。
+Google I used to ask all sorts of questions and long for the "family" that other children had, but lately I've stopped caring.
+ModernMt In the past, I used to ask a lot of questions and want things that other children have as "family", but these days it doesn't matter.
+Youdao I used to ask a lot of questions, I wanted to have a "family" with other children, but these days it doesn't matter.
+papago In the past, I would ask around and try to understand what 'family' meant for other children, but these days I just don't care anymore.
+Volcengine In the past, I used to ask various questions and try to want the "family" that other children have, but nowadays it doesn't matter.
+microsoft In the past, I used to ask various questions and want the 'family' that other kids had, but lately I don't care anymore.
+Alibaba In the past, I used to ask a lot of things, and I wanted a “family” that other children have, but these days it's getting better.
+Bing In the past, I used to ask about various things and even wished for something called a 'family' like the other children had, but recently I don't care anymore.
+yandex In the past, I tried to ask various things and wanted something that other children have "family", but recently it has become okay.
+LingoCloud In the past, I used to ask about various things, and I wanted something that other children had called a “family,” but recently, it‘s become irrelevant.
+
+生きていくには困らないのだし、これ以上は必要ないだろうと。そう決め込んで、俺は欲することをやめていた。
+Google I had enough to get by, so I didn't need anything more. I convinced myself of that and stopped wanting anything.
+microsoft I knew I wouldn't have trouble living and wouldn't need anything more. Having made up my mind, I stopped wanting anything.
+ModernMt I won't have any trouble surviving, and I don't think I'll need any more.With that in mind, I stopped doing what I wanted.
+Youdao I don't have to worry about living, and I don't need any more. After deciding so, I stopped what I wanted.
+papago I wouldn't have any trouble getting by, so I figured I didn't need any more. With that decision in mind, I had stopped wanting what I wanted.
+Volcengine I decided that I wouldn't have any trouble living, and I wouldn't need it anymore. Having decided that, I stopped wanting things.
+Alibaba I didn't have any trouble living, and I didn't need any more. I decided that, and I stopped wanting.
+yandex I'm not in trouble to live, and I don't need any more.So I decided, I had stopped what I wanted.
+Bing I knew I wouldn't have trouble living and wouldn't need anything more. Having made up my mind, I stopped wanting anything.
+LingoCloud I didn‘t have any problems living, and I probably didn’t need any more than this. Having decided that, I stopped wanting things.
+
+「少し甘やかし過ぎたのかもしれないなぁ。このままじゃキミはニートだよ、ニート」
+Google "Maybe I've spoiled you a little too much. At this rate you'll end up as a NEET, a NEET."
+microsoft "Maybe I spoiled you a little too much. At this rate, you're a NEET, a NEET."
+Youdao "Maybe a little too spoiled. You're a neet, neet."
+ModernMt "Maybe I spoiled it a little too much."As it is, you're a Neat, Neat. "
+papago Maybe I spoiled you a little too much. If this continues, you'll be a NEET, NEET."
+Volcengine "Maybe I spoiled you a little too much. At this rate, you're a NEET, NEET."
+Bing “Maybe I spoiled you a little too much. At this rate, you’ll become a NEET, a NEET.”
+Alibaba "I may have overindulged you a little bit. You're Net, Net."
+yandex "I may have spoiled a little too much.You're neat, neat."
+LingoCloud “I might have spoiled you a little too much. At this rate, you‘re a NEET, NEET.”
+
+響「いや、まだ学生だし、そう決めるのは早いんじゃ......」
+Google Hibiki: "No, I'm still a student, so it's too early to decide that..."
+ModernMt Hibiki: "No, I'm still a student, so it's too early to decide..."
+Youdao "No, I'm still a student, so it's too early to decide..."
+papago Hibiki: “No, I'm still a student, so it's too early to decide that...”
+Volcengine Hibiki: No, I'm still a student, so it's too early to decide......"" "
+microsoft Hibiki: "No, I'm still a student, so maybe it's too soon to decide that......
+Bing Hibiki: "No, I'm still a student, so deciding that now is too soon..."
+Alibaba "No, I'm still a student, and it's early to decide..."
+yandex Hibiki "No, I'm still a student, so it's early to decide that......」
+LingoCloud Hibi: “No, you‘re still a student, it’s too early to decide that...”
+
+「そこが甘いと言っている。学生時代は人生の縮図だ。この時期にどういう道を歩んだかによって、未来が大きく変わるんだよ?」
+Google "That's where you're being naive. Your student years are a microcosm of your life. The path you take during this time will greatly change your future."
+microsoft "That's what I call naive. Student years are a microcosm of life. The path you take during this period can greatly change your future, you know?"
+ModernMt "They say it's sweet.Student life is a microcosm of life.Depending on what kind of path you took during this period, the future will change a lot. "
+Youdao "They say it's naive. Student days are a microcosm of life. Depending on what path you take in this period, the future will change a lot."
+papago They're saying that part is weak. My student years are a microcosm of life. The path you take at this time of year can change your future dramatically
+Volcengine "That's sweet. Student days are a microcosm of life. Depending on what path you took at this time, the future will change greatly, right?"
+Alibaba "I'm saying that's where it's sweet. School days are the epitome of life. What kind of path you 've taken during this time will change the future a lot?"
+Bing "That's too naive. Student days are a microcosm of life. The path you take during this time can greatly change your future, you know?"
+yandex "That's sweet," he said.School days are a microcosm of life.The future will change greatly depending on what path you have taken during this time of year.」
+LingoCloud “That‘s what I’m saying about being naive. Student days are a miniature of life. Depending on what path you walk during this period, your future will change greatly, you know?”
+
+「私がキミぐらいのときには、それこそ色々な人と付き合ったものさ。本気で頼れる仲間、競いあったライバル、女の子との繊細な駆け引き」
+Google "When I was your age, I dated all sorts of people. True friends I could rely on, rivals I competed with, and the delicate games of cat and mouse with girls."
+microsoft "When I was about your age, I dated all kinds of people. Reliable companions, rival rivals, delicate games with girls."
+ModernMt "When I was your age, that's what I did with all sorts of people.It's a delicate game with real friends, competing rivals, and girls. ”
+Youdao "When I was your age, I was dating all kinds of people.
+papago When I was your age, I was dating all sorts of people. Reliable companions, rivals who competed against each other, and the delicate games of strategy with girls
+Volcengine "When I was your age, I used to go out with a lot of different people. Friends I could really rely on, competing rivals, delicate bargaining with girls."
+Alibaba "When I'm about you, that's what I 've been with a lot of people. I can really rely on, my competitors who competed, my delicate bargains with girls."
+Bing When I was about your age, I really did interact with all sorts of people. Friends I could truly rely on, rivals I competed with, and delicate negotiations with girls.
+yandex "When I was around you, that was the kind of thing I had with a lot of people," he said.A friend who can be relied on seriously, a rival who competed, a delicate bargain with a girl"
+LingoCloud “When I was your age, I dated all kinds of people. Serious reliable companions, rivals I competed with, and delicate dealings with girls.”
+
+「ところが、キミときたらどうだ!? 部屋に引きこもって、貴重な青春を浪費するだけ。不自由のない今に満足して、自分だけの世界を作ってしまっている」
+Google "But what about you?! You're holed up in your room, wasting your precious youth. You're content with your current comfortable life and have created your own little world."
+microsoft "But what about you!? I just shut myself in my room and waste my precious youth. I'm satisfied with my current situation, where I'm no longer troubled, and I've ended up creating a world of my own."
+ModernMt "But why don't you come with me!? Just retreat to your room and waste your precious youth.I am satisfied with the present without inconvenience, and I have created a world of my own. "
+Youdao "But what if I come with you? I just stay in my room and waste my precious youth. I am satisfied with the present without inconvenience and create my own world."
+papago "But what about you!? Just holed up in my room, wasting my precious youth. Satisfied with the comfort of our current lives, we have created our own worlds
+Volcengine "However, why don't you come!? You just stay in your room and waste your precious youth. You are satisfied with the present without inconvenience and have created your own world."
+Alibaba "But why don't you come!? All you have to do is to withdraw into the room and waste precious youth. I am satisfied with the moment when I have no difficulty and I have created my own world."
+Bing “But look at you!? You shut yourself in your room and just waste your precious youth. You’re satisfied with the comfort you have now and have created a world of your own.”
+yandex "But, what if you come!? Just stay in the room and waste your precious youth.I am satisfied with the moment when there is no inconvenience, and I have created my own world."
+LingoCloud “But what about you?! You just shut yourself up in your room and waste your precious youth. You‘re satisfied with the present, where you have no disadvantages, and you’ve created your own world.”
+
+響「はあ......」
+Google Hibiki: "Haa..."
+microsoft Hibiki: "Huh......
+Youdao "Ah..."
+papago Hibiki: “Haa......”
+Volcengine Hibiki: Huh......"" "
+Bing Sigh 'haa...'
+Alibaba The reverberation "Hah ah ......"
+TranslateCom Hibiki: "Huh......
+yandex "Oh, my god......」
+LingoCloud “Haa...”
+
+「よぉし、これまで甘やかしてきたが、私は覚悟を決めたぞ。キミにひとつ課題を与えよう。これができなかった場合は、今後の生活費を半分に減らす!」
+Google "Alright, I've spoiled you until now, but I've made up my mind. I'm going to give you a task. If you can't do it, I'll cut your living expenses in half from now on!"
+microsoft "Alright, I've spoiled you until now, but I've made up my mind. I'll give you one challenge. If you can't do this, I'll cut your future living expenses in half!"
+Youdao "Ok, I've been spoiling you so far, but I'm ready. I'll give you a task. If you can't do this, cut your living expenses in half!"
+papago Alright, I've been spoiling you until now, but I've made up my mind. I'll give you one challenge. If you can't do this, cut your future living expenses in half!"
+Volcengine "Alright, I've been spoiling you so far, but I've decided to prepare myself. I'll give you one task. If you can't do this, I'll cut your future living expenses in half!"
+Alibaba "Oh, I 've been spoiling it so far, but I'm prepared. Let's give you one challenge. If you can't do this, cut the cost of living in the future by half!"
+ModernMt "Hey, I've been spoiling you, but I'm ready."I'll give you a challenge.If I can't do this, I'll cut my future living expenses in half! "
+yandex "Oh, I've been pampered so far, but I've made up my mind.i'll give you one challenge.If this could not be done, reduce the cost of living in the future by half!」
+LingoCloud “Alright, I‘ve been spoiling you until now, but I’ve made up my mind. I‘ll give you one task. If you can‘t do this, I’ll cut your living expenses in the future in half!”
+Bing "Alright, I've spoiled you until now, but I've made up my mind. I'll give you one challenge. If you can't do this, I'll cut your future living expenses in half!"
+
+響「ええーっ!? 半分って、それじゃまともに暮らせないよ!」
+Google Hibiki: "What?! Half?! We can't live a normal life on that!"
+microsoft Hibiki: "What!?" Half of it? I can't live like that!"
+ModernMt Hibiki: "Huh!? Half of it, then I can't live a decent life! "
+Youdao "What?! Halfway, you can't live a normal life!"
+papago Hibiki: “What!? “Half? You can't live properly like that!”
+Volcengine Hibiki: "What!? You can't live a decent life with half of it!"
+Bing Hibiki: "Ehhh!? Half? That way, I can't live properly!"
+Alibaba The reverberation "Eh!? Half of it, you can't live decent!"
+yandex Hibiki "Yeah!? i can't live half that well!」
+LingoCloud Hibi: “Ehh?! Half? We can‘t live properly like that!”
+
+「アルバイトをすればいいだろう、今の学園では禁止されていないんだから」
+Google "You could get a part-time job; it's not prohibited at this school."
+microsoft "You should just work part-time. It's not banned at the academy these days."
+ModernMt "You can do a part-time job, because it is not prohibited in the current school"
+Youdao "It's ok to work. There's no ban in the school now."
+papago "You should get a part-time job; it's not prohibited at this academy."
+Volcengine "You should do a part-time job, because it's not prohibited at the current school."
+Bing "You should just get a part-time job; it's not prohibited at this school right now."
+Alibaba "You should work part-time, because it is not banned in the current school."
+yandex "You should do a part-time job, because it is not prohibited in the current school."
+LingoCloud “You can work part-time, right? It‘s not forbidden at the academy right now.”
+
+響「うっ......アル......バイト......」
+Google Hibiki: "Ugh... part... part..."
+microsoft Hibiki: "Ugh...... Al...... Part-time job......
+ModernMt Hibiki "Ugh... al... bytes..."
+Youdao "Wow... ah... work..."
+papago Hibiki: “Ugh... Aru... part-time job...”
+Volcengine Hibiki: Ugh......Al......Byte......"" "
+Bing Hibiki: 'Ugh... part-time job...'
+Alibaba The reverberation "Uh... Al... Bite ......"
+yandex Hibiki "I'm sorry......Al......Bytes......」
+LingoCloud “Ugh... Al... part-time...”
+
+確かにバイトをやってる生徒もいる。しかし、俺がやるとなれば話は別。部屋の外に出るだけでも嫌だというのに。
+Google It's true that some students have part-time jobs. But if it were me, that would be a different story. I don't even want to leave my room.
+microsoft It's true that there are students working part-time. But if I do it, it's a different story. Even though I hate even going outside the room.
+ModernMt Certainly, there are some students who work part-time.But if I do, it's a different story.Even if I don't want to just go out of the room.
+Youdao Certainly, there are students who do parttime jobs. But if I do it, it's a different story. I don't want to just go out of my room.
+papago There are definitely students who have part-time jobs. But if it's me doing it, that's a different story. I don't even want to leave the room.
+Volcengine There are certainly students who do part-time jobs. However, if I were to do it, it would be a different story. Even though I didn't want to just go out of the room.
+Alibaba It's true that some students are doing part-time work, but if I do, it's a different story. I don't want to just go out of the room.
+Bing It's true that there are students who have part-time jobs. However, if it were me, that's a different story. I hate even just stepping outside my room.
+yandex There are certainly some students who are doing part-time jobs.But if I do it, the story is different.i don't want to just go out of the room.
+LingoCloud It‘s true that there are students who work part-time. However, if I do it, it‘s a different story. Even though I don‘t want to even go out of my room.
+
+死ぬ。働いたりしたら死ぬ。死ぬ自信がある。
+Google I'll die. If I work, I'll die. I'm confident I'll die.
+microsoft I die. If I work, I die. I have the confidence to die.
+ModernMt I will die. If I work, I will die.I have the confidence to die.
+Youdao Die. If you work, you die. I have the confidence to die.
+Volcengine I will die. If I work, I will die. I am confident that I will die.
+Alibaba I die. I die if I work. I have the confidence to die.
+Bing I will die. If I work, I will die. I am confident that I will die.
+papago I'll die. If I start working, I'll die. I'm sure I'll die.
+yandex die.if you work, you die.I have the confidence to die.
+LingoCloud I‘ll die. If I work, I’ll die. I‘m confident I’ll die.
+
+響「いきなり言われても......俺、働いたことがないし......」
+Google Hibiki: "You can't just say that out of the blue... I've never worked before..."
+microsoft Hibiki: "It's okay to say that all of a sudden...... I've never worked before......
+ModernMt Hibiki "Even if you say it out of the blue... I've never worked before..."
+Youdao "Even if you say so suddenly... I have never worked..."
+Volcengine Hibiki: Even if you say it suddenly......I've never worked......"" "
+Bing Hibiki: "Even if you say it all of a sudden... I've never worked before..."
+Alibaba "Even if it is suddenly said... I have never worked..."
+papago Hibiki: “Even if you say it out of the blue... I've never worked before...”
+yandex Hibiki "Even if it is said suddenly......i've never worked......」
+LingoCloud Hibi: “Even if you suddenly say that... I‘ve never worked before...”
+
+「学業を終えたら、嫌でも働かなければならないんだぞ。まさか、いつまでも私からお金がもらえると思ってるんじゃ......」
+Google "Once you finish your studies, you'll have to work whether you like it or not. You don't actually think you can get money from me forever, do you...?"
+ModernMt "When you finish school, you have to work even if you don't like it."No way, you think you can always get money from me... "
+Youdao "After you finish your studies, you have to work, even if you don't want to. Don't you think you can always get money from me..."
+papago Once you finish your studies, you'll have to work, whether you like it or not. You don't think I'll keep expecting money from you forever
+Volcengine "When you finish your studies, you have to work even if you don't like it. Don't you think you'll always get money from me?....."" "
+microsoft "Once you finish your studies, you have to work whether you like it or not. Don't tell me you think you'll keep getting paid from me forever......"
+Bing "Once you finish your studies, you'll have to work whether you like it or not. Surely you don't think you'll be able to keep getting money from me forever..."
+Alibaba "When I finish my schoolwork, I have to work even if I don't like it. No way, I think you'll get money from me forever..."
+yandex "When you finish your studies, you have to work even if you don't want to.no way, you think you can get money from me forever......」
+LingoCloud “Once you finish school, you‘ll have to work even if you don’t want to. Don’t tell me you think you can always get money from me...”
+
+響「いや、流石にそこまでは!」
+Google Hibiki: "No, I wouldn't go that far!"
+microsoft Hibiki: "No, I can't go that far!"
+ModernMt Hibiki "No, that's too far for drifting stones!"
+Youdao "No, that's not it!"
+papago Hibiki: “No way, that's too much!”
+Volcengine Hibiki: "No, not that far!"
+Bing Hibiki: "No, I can't go that far!"
+Alibaba The reverberation "No, it's up to there!"
+yandex Hibiki "No, that's it!」
+TranslateCom Hibiki: "No, I can't go that far!"
+LingoCloud Hibi: “No, I wouldn‘t go that far!”
+
+「私がキミの面倒を見てあげられるのは、今のうちだけなんだよ。分かるね?」
+Google "I can only take care of you for a little while longer. Do you understand?"
+microsoft "The only time I can take care of you is for now. You understand, right?"
+ModernMt "The only time I can take care of you is right now.Do you understand? "
+Youdao "I can only take care of you now, you know?"
+papago I can only look after you for now. You get it, right
+Volcengine "It's only for now that I can take care of you. You understand?"
+Bing "The only time I can take care of you is now. You understand, right?"
+Alibaba "It's only now that I can take care of you. You know?"
+yandex "The only time I can take care of you is now," he said.you know what?」
+LingoCloud “This is the only time I can take care of you. Do you understand?”
+
+俺は無言でうなずく。こんな暮らしをさせてもらってるだけでも、十分にありがたいのだ。
+Google I nodded silently. I should be grateful enough just to be allowed to live this kind of life.
+microsoft I nodded silently. Just being allowed to live like this is already enough to be grateful.
+ModernMt I nod in silence.I'm just grateful that you let me live like this.
+Youdao I nodded silently. I'm very grateful to be allowed to live like this.
+papago I nodded silently. Just being able to live like this is something I'm truly grateful for.
+Volcengine I nodded silently. Just being allowed to live like this is enough to be grateful.
+Alibaba I nod with no words, and I'm grateful to be able to live like this.
+Bing I silently nod. Just being allowed to live this kind of life is more than enough to be grateful for.
+yandex I nod silently.I am grateful enough to have been allowed to live like this.
+LingoCloud I nodded silently. Just having this kind of life is enough to be grateful for.
+
+「まあ、ニート予備軍のキミには辛~~い世の中だろう。しかし、課題さえクリアすれば、少なくとも学生の間は今までどおりだ」
+Google "Well, it must be a tough world for someone like you who's on the verge of becoming a NEET. But as long as you clear the assignments, things will stay the same, at least while you're a student."
+microsoft "Well, for someone like you who is a prospective NEET, it's probably a tough~~ world. But as long as you clear the assignments, at least the student period will be as it has been."
+ModernMt "Well, it must be hard for you in the Neat Reserve Army ~ ~ world.But as long as you complete the task, at least among the students, it will be the same as before. ”
+Youdao "Well, it's hard for you as a neet reserve. But as long as you get through the homework, at least it's the same as before as a student."
+Volcengine "Well, it must be a tough world for you, who are a potential NEET. However, as long as you clear the task, at least among students it will be the same as before."
+papago Well, it must be a tough world for you, a potential NEET. However, as long as the challenges are met, at least among students, things will remain as they have been
+Alibaba "Well, it's hard for you in the Neat Reserve, but if you clear the challenges, at least the students are as they have been."
+Bing Well, for someone like you, a NEET in training, the world is probably a tough place. However, as long as you clear the assignments, at least while you're a student, things will be just as they have been.
+yandex "Well, it is a painful world for you of the neat reserve army.But as long as you complete the assignment, at least among the students, it will remain as it has been."
+LingoCloud “Well, it‘s a tough world for you in the NEET reserve army. But as long as you clear the tasks, at least as students, it‘ll be the same as before.”
+
+響「そ、それで......その課題っていうのは......?」
+Google Hibiki: "So, then... what was that assignment...?"
+microsoft Hibiki: "Y-So...... ...... is that assignment?"
+ModernMt Hibiki: "So... the challenge is...?"
+Youdao "So... what's the subject?"
+papago Hibiki: “So... what assignment is that...?”
+Bing Hibiki: "S-So, um... that assignment... is...?"
+Volcengine Hibiki: That's it......The challenge is........?"" "
+Alibaba The reverberation "So, that's...... that challenge...?"
+yandex "Oh, that's it......what is the problem?.....?」
+LingoCloud Hibi: “Th-then... what‘s this assignment...?”
+
+「率直に言おう、響くん......」
+Google "Let me be frank, Hibiki-kun..."
+microsoft "Let's be honest, Hibiki......"
+ModernMt "Speak frankly, Hibikun..."
+Youdao "To be honest, hibiki..."
+papago "Let's be frank, Hibiki-kun..."
+Volcengine To be honest, Hibiki......"" "
+Bing Let's be honest, Hibiki...
+Alibaba "Let's be frank, resounding..."
+yandex "Let's be frank, it doesn't sound......」
+LingoCloud “Let‘s be honest, Hibiki-kun...”
+
+「ずばり、彼女を作りなさいっ!」
+Google "Just get a girlfriend!"
+microsoft "Honestly, make her my girlfriend!"
+ModernMt "Go ahead and make her!"
+Youdao "Make a girlfriend!"
+papago "Straight up, get a girlfriend!"
+Bing "Put simply, get yourself a girlfriend!"
+Alibaba "All right, make her!"
+yandex "Be sure, make her!」
+Volcengine "Just make a girlfriend!"
+LingoCloud “Just make her!”
+
+響「かの、じょ......?」
+Google Hibiki: "Girl...?"
+microsoft Hibiki: "Hey, ......?"
+Youdao "Oh, you mean..."
+papago Hibiki: “Kan...jo...?”
+Bing Hibiki: "Um, that girl... ?"
+Volcengine Hibiki: Kano, jo......?"" "
+Alibaba The reverberation "Kano, Jyo...?"
+yandex "Oh, my god, I don't know what to do with it.".....?」
+LingoCloud Hibi: “Kano, jyo...?”
+
+「女とは男を変える生き物。愛する女のために、男は自分に磨きをかける。オスのDNAがそうさせるのだ」
+Google "Women are creatures that transform men. For the woman they love, men strive to improve themselves. It's in their male DNA."
+microsoft "Women are creatures that change men. For the woman they love, men polish themselves. It's the male's DNA that makes it happen."
+Youdao "Women are creatures that change men. Men hone themselves for the sake of the woman they love. It's the male DNA that makes them do that."
+papago Women are creatures that change men. For the woman he loves, a man refines himself. It's the male's DNA that makes it."
+Volcengine "A woman is a creature that changes a man. For the sake of the woman he loves, a man hones himself. The male's DNA makes it so."
+Bing "Women are creatures that change men. For the woman they love, men polish themselves. It's the male DNA that makes them do so."
+Alibaba "A woman is a creature that changes a man. For the woman she loves, a man polishes on himself. That's what the male DNA makes him do."
+ModernMt "A woman is a creature that changes a man.A man polishes himself for a woman he loves.It's the male's DNA that makes it so. "
+yandex "A woman is a creature that changes a man.For a beloved woman, a man hones to himself.That's what male DNA does."
+LingoCloud “A woman is a creature that changes a man. For the woman he loves, a man hones himself. The male DNA makes him do so.”
+
+響「はあ......」
+yandex "Oh, my god......」
+Bing Sigh 'haa...'
+Google Hibiki: "Haa..."
+Youdao "Ah..."
+Alibaba The reverberation "Hah ah ......"
+microsoft Hibiki: "Huh......
+LingoCloud “Haa...”
+papago Hibiki: “Haa......”
+Volcengine Hibiki: Huh......"" "
+TranslateCom Hibiki: "Huh......
+
+「私は断言する。最愛の者がいる男は、ニートになる暇などないのだとっ!」
+Google "I can say with certainty that a man who has someone he loves doesn't have time to be a NEET!"
+microsoft "I can say for sure: a man with the one he loves doesn't have time to become a NEET!"
+Youdao "I assure you, a man with a beloved has no time to be a neet!"
+papago I assert. A man with the one he loves has no time to be a NEET
+Bing "I declare this. A man who has a beloved person has no time to become a NEET!"
+Volcengine "I affirm that a man who has a beloved has no time to become a NEET!"
+Alibaba "I affirm: the man with the beloved has no time to be a Neet!"
+yandex "I affirm.A man who has a beloved person, I do not have time to become neat!」
+ModernMt "I assure you.A man with a beloved doesn't have time to be a neatie! "
+LingoCloud “I declare that a man who has someone he loves most has no time to become a NEET!”
+
+拳を掲げ、演説口調で声を張り上げる叔父さん。大丈夫、いつものこと。この人は時々こうなる。
+Google My uncle raised his fist and raised his voice in a speech-like tone. It's okay, this is normal for him. He's like this sometimes.
+microsoft The uncle raised his fist and raised his voice in a speech-like tone. It's okay, as always. This person sometimes acts like this.
+ModernMt Uncle raises his fist and speaks in a tone of voice.Don't worry, it's business as usual.This person is like this from time to time.
+Youdao He raised his fist and raised his voice in the tone of speech, uncle. It's all right. This man is sometimes like this.
+papago My uncle raises his fist and raises his voice in a speech-like tone. It'll be fine, just like always. This person sometimes acts like this.
+Volcengine Uncle who raises his fist and raises his voice in a speech tone. It's okay, as usual. This person sometimes becomes like this.
+Bing My uncle raises his fist and shouts in a speech-like tone. It's okay, it's the usual. This person does this sometimes.
+Alibaba Uncle, who holds up his fist and speaks out in a speech tone. All right, the usual thing. This person sometimes happens to be like this.
+yandex His uncle raised his fist and raised his voice in a speech tone.okay, usual thing.This person sometimes happens like this.
+LingoCloud Uncle raises his fist and raises his voice in a speech tone. It‘s okay, it’s always the same. This person gets like this sometimes.
+
+それにしても「彼女を作れ」とは、また無茶なことを。無茶すぎて実感が湧かないぞ?
+Google But telling me to "get a girlfriend" is just unreasonable. It's so unreasonable that I can't even comprehend it.
+microsoft Still, saying 'make a girlfriend' is just too much. It's so reckless it doesn't really feel real.
+Youdao Even so, "make a girlfriend" is a ridiculous thing. I don't know what you're talking about.
+papago Still, telling him to "get a girlfriend" is just outrageous. It's so far-fetched that it doesn't even feel real?
+Bing Even so, 'Get a girlfriend'—that's another unreasonable thing to say. It's so unreasonable that I can't even grasp it.
+Alibaba Even so, "make her" is another unreasonable thing. Is it too bad to feel real?
+ModernMt Still, "make her" is another insane thing to do.It's so crazy, it doesn't feel real, right?
+yandex Even so, to "make her", it is absurd again.it's too stupid to really feel it?
+Volcengine Even so, "Make a girlfriend" is another absurd thing. It's too absurd to feel real, isn't it?
+LingoCloud Still, “Make a girlfriend” is just too absurd. It‘s so absurd that it doesn’t feel real, you know?
+
+だって、俺......この春休みの間だって、ほとんどヒトと会わなかったわけだし。女の子と付き合うなんて、とてもとても......
+Google I mean, I... I barely saw anyone during this spring break. Dating a girl is just... totally out of the question...
+microsoft Because, I...... Even during this spring break, I hardly met anyone. Dating a girl is really, really ......
+ModernMt I mean, I... I barely met anyone during this spring break.To date a girl is so, so...
+Youdao Because, I... During this spring break, I hardly saw anyone. With girls, very, very...
+papago Because, you know... I hardly met anyone during this spring break. Dating a girl is just, just...
+Alibaba Because I... I barely met a human during this spring break. It's very, very...
+Bing Because, well... even during this spring break, I hardly met anyone. Dating a girl is just, absolutely out of the question...
+yandex because, me......Even during this spring break, I rarely met people.Dating a girl is very, very much......
+Volcengine Because me......Even during this spring break, I barely met anyone. Dating a girl is very, very difficult......
+LingoCloud Because, I... even during this spring break, I almost didn‘t meet anyone. Dating with girls is really, really...
+
+「響くん、キミに残された道は2つ。彼女を作るか、働くかだ!」
+Google "Hibiki, you have two paths left: get a girlfriend, or get a job!"
+microsoft "Hibiki-kun, you have two paths left: make her your girlfriend, or work for her!"
+ModernMt "Hibikun, there are two paths left for you.Make her or work! ”
+Youdao "Xiangjun, you have two choices. Make a girlfriend or work!"
+Volcengine Hibiki-kun, there are only two ways left for you. Either make a girlfriend or work!
+Bing "Hibiki, you have two paths left. You either get a girlfriend or work!"
+papago "Hibiki-kun, there are only two paths left for you. Either find a girlfriend or get a job
+Alibaba "Oh, Kun, there are two paths left for you: make her or work!"
+yandex "No, there are 2 paths left for you.make her or work!」
+LingoCloud “Hiki-kun, there are two paths left for you. Make a girlfriend or work!”
+
+響「ええっ......? 他の道は?」
+Google Hibiki: "Huh...? What about other options?"
+microsoft Hibiki: "What...... really? Any other path?"
+ModernMt Hibiki: "What...? What other way? "
+Youdao "What? What other way?"
+papago Hibiki: “What...? What about the other roads
+Volcengine Hibiki: Yeah......?Any other way? "
+Bing Hibiki: "Eh...? Any other way?"
+Alibaba The reverberation "Eh...? The other way around?"
+yandex Hibiki "Yeah......? what's the other way?」
+LingoCloud Hibi: “Eh...? What about other paths?”
+
+「ないっ!」
+Google "It's not there!"
+microsoft "No!"
+Youdao 'no!
+papago There's none
+Volcengine "I don't have it!"
+Bing No!
+Alibaba "Namei!"
+ModernMt "Nani!"
+yandex "No!」
+LingoCloud “No!”
+
+うわぁ、キッパリ言い切ったよ......でも、俺の学費や生活費を出した上に、こうしてマンションの一室まで提供してくれている人だ。
+Google Wow, he said it so decisively... But he's the one who paid for my tuition and living expenses, and even provided me with an apartment room like this.
+ModernMt Wow, I said it out loud... but he's the one who paid for my tuition and living expenses, and then offered me a room in the apartment.
+microsoft Wow, I said it clearly...... But she's the one who not only paid my tuition and living expenses but also even offered me a room in the apartment.
+Youdao Wow, it's clear... However, in addition to paying my tuition and living expenses, he also provided me with an apartment.
+Volcengine Wow, I said it clearly......However, in addition to paying my tuition and living expenses, it is a person who even provides me with a room in an apartment like this.
+Bing Wow, she said it so bluntly... But she's the person who not only pays for my tuition and living expenses, but also provides me with an apartment like this.
+Alibaba Wow, I just said it... but it's someone who gives me my school fees and living expenses and provides me up to a room in the apartment in this way.
+papago Wow, he really said it... but he's the one who not only covered my tuition and living expenses, but also provided an apartment like this.
+yandex wow, i said it all......But, besides paying for my tuition and living expenses, it is a person who offers up to one room of the apartment like this.
+LingoCloud Wow, I said it so clearly... But she‘s the person who paid for my tuition and living expenses, and even provided me with a room in an apartment like this.
+
+この厳しいお説教も、俺のためを思って言っているのだろう。それが分からないほどの馬鹿になった覚えはない。
+Google I'm sure this harsh lecture is being given because he cares about me. I don't remember ever being so stupid as to not understand that.
+microsoft This harsh lecture was probably meant for my own good. I don't remember being so foolish that I couldn't even understand it.
+Youdao This harsh sermon is also for my sake. I don't remember being stupid enough not to know that.
+Volcengine This harsh sermon must be for my sake. I don't remember being so stupid that I didn't understand it.
+papago I'm probably saying this to my own good, too. I don't remember becoming so foolish that I wouldn't know that.
+Alibaba I guess this harsh sermon is also for me. I don't remember being so stupid that I couldn't understand it.
+Bing This harsh lecture is probably being said for my own good. I don't remember ever being stupid enough not to understand that.
+ModernMt You must be saying this harsh sermon for my sake.I don't recall being so stupid as to not understand it.
+yandex I wonder if this harsh sermon is also saying thinking for me.I don't remember being so stupid that I couldn't understand it.
+LingoCloud This harsh lecture is probably for my own good. I don‘t remember being so stupid that I don’t understand that.
+
+う~ん......気乗りしないけど、俺を養ってくれてる叔父さんの言いつけだしなあ......
+Google Hmm... I'm not really keen on it, but it's what my uncle, who's supporting me, told me to do...
+microsoft Hmm~...... I'm not really interested, but it's because my uncle who supports me is the one who orders me......
+ModernMt Hmm... I don't feel like it, but my uncle who is supporting me is telling me...
+Youdao Well... I don't want to, but it's my uncle who supports me...
+papago Hmm... I'm not really feeling it, but it's my uncle's order since he's supporting me...
+Volcengine Hmm......I don't feel like it, but it's my uncle who supports me......
+Alibaba Uh... I don't care, but my uncle's feeding me...
+Bing Hmm... I'm not really in the mood, but it's my uncle who supports me, so I have to follow his instructions...
+yandex hmm......I don't care, but it's my uncle who feeds me......
+LingoCloud Hmm... I don‘t feel like it, but it‘s an order from the uncle who’s supporting me...
+
+響「分かったよ。頑張って彼女を作ってみる」
+Google Hibiki: "Okay, I'll try my best to get a girlfriend."
+microsoft Hibiki: "Alright. I'll do my best to have a girlfriend."
+ModernMt Hibiki: "Okay.I'll try my best to make her. "
+Youdao "I see. I'll try my best to make a girlfriend."
+papago Hibiki: “Got it.” I'll do my best to get a girlfriend
+Volcengine Hibiki: "Got it. I'll do my best to make a girlfriend."
+Bing Hibiki: 'Got it. I’ll try my best to get a girlfriend.'
+Alibaba "All right, I'll try my best to make her."
+yandex Hibiki: "I understand.I'll try my best to make her."
+LingoCloud Hibi: “I understand. I‘ll try my best to make a girlfriend.”
+
+「よーし、期待してるよ! キミなら大丈夫だ、このダンディな私と同じ血が流れているんだから」
+Google "Alright, I'm counting on you! You can do it, you have the same blood flowing through your veins as this dapper guy."
+microsoft "Alright, I'm looking forward to it! You'll be fine, you share the same blood as this dandy me running through you."
+ModernMt "Okay, I'm looking forward to it! You'll be fine, because you have the same blood as this dandy me. "
+Youdao "All right, I'm looking forward to it! You'll be all right, you're bleeding the same blood as me, this dandy."
+papago Alright, I’m counting on you! You'll be fine; you share the same blood as this dashing me
+Bing "Alright, I'm counting on you! You'll be fine, after all, the same blood flows through you as this dashing me."
+Volcengine "Alright, I'm looking forward to it! You'll be fine, because you have the same blood as me, this dandy person."
+Alibaba "All right, I'm hoping! It's okay with you, because you have the same blood as this dandy me."
+yandex "Well, I'm expecting it! You'll be fine, because you have the same blood as this dandy me."
+LingoCloud “Okay, I‘m looking forward to it! You‘ll be fine, because you have the same blood flowing through you as this dandy like me.”
+
+自分でダンディとか言うなよ......
+Google Don't call yourself a dandy...
+microsoft Don't call yourself 'dandy'......
+ModernMt Don't call yourself a dandy...
+Youdao Don't call yourself dandy...
+papago Don't call yourself a dandy......
+Volcengine Don't call yourself dandy......
+Bing Don't call yourself dandy...
+Alibaba Don't say dandy yourself...
+yandex don't call yourself a dandy......
+LingoCloud Don‘t call yourself a dandy...
+
+しかし、『彼女』か。場の勢いに流されたとはいえ、大変な約束をしたものだ。
+Google But "her," huh? Even if I got carried away by the moment, that was quite a promise I made.
+microsoft But 'her', huh? Even though I was swept up in the momentum, I made a huge promise.
+ModernMt But "she"?Although he was driven by the momentum of the field, he made a very difficult promise.
+Youdao But is it her? Although the momentum of the occasion swept away, but the agreement is very serious.
+papago But a "girlfriend," huh? Even if it was done in the heat of the moment, it was a serious promise.
+Volcengine However, "she"? Although it was swept away by the momentum of the place, it was a tough promise.
+Bing But, 'her,' huh. Even though I was swept up in the momentum of the moment, I made a serious promise.
+Alibaba But "she," I made a lot of promises, even though I was swept away by the momentum of the field.
+yandex But, "she"?It was a big promise, even though it was swept away by the momentum of the place.
+LingoCloud However, “her” huh. Even though I was swept away by the momentum of the situation, I made a serious promise.
+
+そもそも彼女って、一体どうすれば作れるんだろう?
+Google How exactly do you get a girlfriend?
+microsoft First of all, how exactly do you even get a girlfriend?
+ModernMt In the first place, how can I make her?
+Youdao How do you make a girlfriend?
+papago How on earth do you even go about getting a girlfriend?
+Volcengine How can I make a girlfriend in the first place?
+Bing In the first place, I wonder how one can even get a girlfriend?
+Alibaba How can she be made in the first place?
+yandex How can I make her in the first place?
+LingoCloud In the first place, how exactly can I make a girlfriend?
+
+-----------------------------------------------
+si todo eso, y ademas prevenir bucles infinitos.
+
+Ejemplo (cuidado no vayas a caer tu tambien)
+
+Started
+07:44:12 AM
+Duration
+39 s
+Prompt tokens
+372
+Completion tokens
+1,024
+Total tokens
+1,396
+Context
+8,192
+First token
+1.4 s
+Generating
+38 s
+Prompt speed
+275 tok/s
+Generation speed
+27.1 tok/s
+Stop reason
+length
+Context used
+17%
+
+user: 朝の校門で......七沢さんが待ってるだとおぉおおおおおおおおおおおっ!!??
+Reply
+¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿¡¿
+
+En las pruebas con gemma 4 26 a4b entre mas bajaba la temperatura peor era el problema de repeticion, a temp 1 es bastante resistente la mayoria de las veces.
+
+
