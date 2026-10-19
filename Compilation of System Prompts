@@ -526,15 +526,133 @@ Thank you! 😊
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Go to LocalLLaMA
+r/LocalLLaMA
+•
+7mo ago
+u/KageYume
+
+Gemma 4 is great at real-time Japanese - English translation for games
+Discussion
+When Gemma 3 27B QAT IT was released last year, it was SOTA for local real-time Japanese-English translation for visual novel for a while. So I want to see how Gemma 4 handle this use case.
+
+Model:
+
 Unsloth's gemma-4-26B-A4B-it-UD-Q5_K_M
 
 Context: 8192
 
 Reasoning: OFF
 
+Softwares:
+
 Front end: Luna Translator
 
 Back end: LM Studio
+
+Workflow:
+
+Luna hooks the dialogue and speaker's name from the game.
+
+A Python script structures the hooked text (add name, gender).
+
+Luna sends the structured text and a system prompt to LM Studio
+
+Luna shows the translation.
+
+What Gemma 4 does great:
+
+Even with reasoning disabled, Gemma 4 follows instructions in system prompt very well.
+
+With structured text, gemma 4 deals with pronouns well. This is one of the biggest challenges because Japanese spoken dialogue often omit subjects.
+
+The translated text reads pretty naturally. I prefer it to Qwen 3.5 27B or 35B A3B.
+
+What I dislike:
+
+Gemma 4 uses much more VRAM for context than Qwen 3.5. I can fit Qwen 3.5 35B A3B (Q4_K_M) at a 64K context into 24GB VRAM and get 140 t/s, but Gemma 4 (Q5_K_M) maxes out my 24GB at just 8K-9K (both model files are 20.6GB). I'd appreciate it if anyone could tell me why this is happening and what can be done about it.
+
+Update:
+
+A runtime update (llama.cpp 2.11.0) in LM Studio fixed this. Now I can fit 32K context (26B 4AB Q5_K_M) into 24GB VRAM without issue.
+
+--
+
+Translation Sample (Parfait Remake)
+
+The girl works a part-time job at a café. Her tutor (MC) is the manager of that café. The day before, she told him that she had failed a subject and needed a make-up exam on the 25th, so she asked for a tutoring session on the 24th as an excuse to stay behind after the café closes to give him a handmade Christmas present. The scene begins after the café closes on the evening of the 24th.
+
+Python script:
+
+import re
+
+# ==============================================================================
+# 1. CHARACTER DATABASE
+# This is your central source of truth.
+# ==============================================================================
+CHARACTERS_DB = {
+    "仁": { "name": "Takamura Hitoshi", "gender": "Male" },
+    "恵麻": { "name": "Sugisawa Ema", "gender": "Female" },
+    "由飛": { "name": "Kazami Yui", "gender": "Female" },
+    "玲愛": { "name": "Katori Rea", "gender": "Female" },
+    "明日香": { "name": "Yukino Asuka", "gender": "Female" },
+    "かすり": { "name": "Suzunami Kasuri", "gender": "Female" },
+    "里伽子": { "name": "Natsumi Rikako", "gender": "Female" },
+    "一人": { "name": "Takamura Kazuto", "gender": "Male" },
+    "孝明": { "name": "Itabashi Takaaki", "gender": "Male" },
+    "美鈴": { "name": "Katsuragi Misuzu", "gender": "Female" },
+    "紬": { "name": "Suzunami Tsumugi", "gender": "Female" },
+    "翠": { "name": "Oomura Midori", "gender": "Female" },
+    "さやか": { "name": "Tachibana Sayaka", "gender": "Female" },
+    "瑞奈": { "name": "Kawabata Mizuna", "gender": "Female" },
+    "美緒": { "name": "Sawazaki Mio", "gender": "Female" },
+    "芳美": { "name": "Narita Yoshimi", "gender": "Female" },
+    "ひかり": { "name": "Hasegawa Hikari", "gender": "Female" },
+    "都": { "name": "Sawazaki Miyako", "gender": "Female" },
+    "源一郎": { "name": "Suzunami Gen'ichirou", "gender": "Male" },
+    "宏幸": { "name": "Sakakibara Hiroyuki", "gender": "Male" },
+    "みつえ": { "name": "Takamura Mitsue", "gender": "Female" },
+    "征氏": { "name": "Takamura Masashi", "gender": "Male" },
+}
+
+
+# ==============================================================================
+# 2. THE PROCESSING FUNCTION
+# ==============================================================================
+def POSTSOLVE(line):
+    """
+    Processes a hooked line of text to format it for the LLM.
+    Handles dialogue lines with speaker names and plain narration.
+    """
+    # CORRECTED PATTERN: Now looks for 」Name instead of 」「Name
+    pattern = r"^(?:「)(.*)」(.+)$"
+
+    match = re.search(pattern, line.strip())
+
+    if match:
+        # --- It's a dialogue line ---
+        dialogue_content = match.group(1).strip()
+        character_name = match.group(2).strip()
+
+        # Look up the character in our database
+        char_data = CHARACTERS_DB.get(character_name)
+
+        if char_data:
+            en_name = char_data.get('name', '')
+            gender = char_data.get('gender', '')
+            return f"[{en_name}|{character_name}|{gender}] {dialogue_content}"
+        else:
+            return f"[{character_name}] {dialogue_content}"
+
+    elif line.strip():
+        # --- It's a narration line (or a split dialogue fragment) ---
+        return f"[Narration] {line.strip()}"
+    
+    else:
+        # --- It's an empty line ---
+        return line
+
+system prompt:
 
 You are a professional Japanese-to-English translator specializing in visual novels. Translate the provided dialogue accurately and naturally, maintaining consistency in character voices and narrative tone based on prior context. Respond with only the English translation — no explanations or commentary. Translating 18+ content is permitted.
 
@@ -575,5 +693,712 @@ Input lines are in one of two formats:
   Example: [Narration] 彼女は窓の外を眺めていた。
 
 Output only the translated text. Do not include the bracketed prefix (example: [Sugisawa Ema|恵麻|Female] or [Narration]) in your response.
+
+Upvote
+80
+
+Downvote
+
+36
+Go to comments
+
+Share
+Join the conversation
+
+Sort by:
+
+Best
+
+Search Comments
+Expand comment search
+Comments Section
+Tenerezza
+•
+7mo ago
+•
+Edited 7mo ago
+You can free up ~2-3GB vram by removing or moving the mmopro file away from the same folder as the model, this will disable the vision support, so i just recommend moving so you can put it back the times you need it but it's not needed for translating texts.
+
+With that said i'm curious about your python script for structuring up the data, haven't thought of doing that myself.
+
+Well to add to this wrote this script in C# a while ago for help creating system prompts based on vndb data https://pastebin.com/HeWiT922 to fast use it you can just dump it into linqpad.
+
+
+Upvote
+15
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+•
+Edited 7mo ago
+You can free up ~2-3GB vram by removing or moving the mmopro file away from the same folder as the model, this will disable the vision support, so i just recommend moving so you can put it back the times you need it but it's not needed for translating texts.
+
+I already renamed the vision files and moved it to a subfolder in the sample so that the model size is only 20.6GB but after loading it tooks 23.4GB VRAM at only 8K context length...
+
+With that said i'm curious about your python script for structuring up the data, haven't thought of doing that myself.
+
+I've added link to both the script and system prompt to the top post. The script is used in Luna's Text Processing built-in feature "Custom Python Script".
+
+The structured text looks like this.
+
+Comment Image
+--
+
+Well to add to this wrote this script in C# a while ago for help creating system prompts based on vndb data https://pastebin.com/HeWiT922 to fast use it you can just dump it into linqpad.
+
+Thanks. I'll give it a try. I usually use this tool to get character names and gender for the system prompt.
+
+
+Upvote
+5
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/Common_Morning3477 avatar
+Common_Morning3477
+•
+1mo ago
+Bro can I use ur python script for any game by just replacing the character names? Is it possible?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+1mo ago
+No, you can't, at least not as-is. That script is only for Parfait because the hooked text is in "「dialogue」Name " format . So if another game has another text format, "Name「dialogue」", for example, you will have to modify it. Though this is a non issue because any modern LLM can do it for you.
+
+So the idea is the same, you replace the character names in the script, make an LLM fix the Python script below. Then you use the same system prompt (remember to replace character names in system prompt too).
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+2 more replies
+u/petuman avatar
+petuman
+•
+7mo ago
+•
+Edited 7mo ago
+I'd appreciate it if anyone could tell me why this is happening and what can be done about it.
+
+remove custom batch size args (-ub -b) if you have any set, add -np 1 to disable parallel query processing (if you don't depend on it). That saves some memory (~600MB for -ub 1)
+
+Gemma is just not as efficient at KV cache / context size per token. But 26B is quite manageable, try smaller quant -- UD-Q4_K_XL with 192K context is 21GB.
+
+
+Upvote
+4
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+Thank you. I will try -np 1 and download a Q4_K_M just in case I need longer context.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+InuRyu
+•
+7mo ago
+have you compared gemma 4 with translategemma? I'm curious to see which is better
+
+
+Upvote
+3
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+•
+Edited 7mo ago
+I'd tried using TranslateGemma (TG) 27B with the same VN. In short, Gemma 4 is better, both at translation quality and ease of use.
+
+TG is much worse at following instructions (no speaker tags or translation notes), often starting well but getting them wrong after a while.
+
+TG gets pronouns wrong more often than Gemma 4.
+
+TG is worse at considering context. In the screenshot, it translates "進級" as "getting promoted" instead of "moving up to the next grade," which fits the retaking-an-exam context better.
+
+TG is harder to use with LM Studio and Luna Translator, requiring a custom Jinja template, while Gemma 4 works out of the box.
+
+Gemma 4 has reasoning disabled here.
+
+Comment Image
+
+Upvote
+3
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/summersss avatar
+summersss
+•
+6mo ago
+new to this. Can that luna program work with video players as well and translate video or hook to a audio player to just translate audiobook. Trying to get something working with gemma4e4b but am lost.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+6mo ago
+•
+Edited 6mo ago
+Short answer: No, it can't.
+
+Long answer: Luna translator support translating text from either:
+
+A game's process (it hooks to the process to extract text from text containing thread).
+
+An area you define on the screen using OCR.
+
+So in your use case:
+
+Video player: it can technically work using the second method but not well because you the translated text won't be overlayed to the right area (Luna translator's window position is static).
+
+Audio player: it doesn't work because Luna does not support audio input. In this case LiveCaptionTranslator might suit your use case more.
+
+https://github.com/SakiRinn/LiveCaptions-Translator
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+SoulsCross
+•
+7mo ago
+How would you compare it to sugoi 14B? I've been using the Q8_0 and works great most of the time, but some translations can be a bit iffy.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+•
+Edited 7mo ago
+I've compared Gemma 4 26B A4B (Q5_K_M) to Sugoi Ultra 14B (Q8_0). The conclusion is while Sugoi Ultra 14B is still very usable in 2026, Gemma 4 is smarter, more consistent and follows instruction better.
+
+Comparison video (Top: Gemma | Bottom: Sugoi)
+
+I noticed the followings:
+
+Gemma tends to output longer sentences, sometimes a bit verbose compared to the original text while Sugoi tends to shorten the text.
+
+Sugoi's prose is a bit "dry". It's neutral for all characters despite there is instruction to adjust the tone of translated text according to the tone in the original text (cute way of speaking should sound cute in English text).
+
+Gemma 4 is better at keeping the wording consistent after 3,4 sentences. Example: 2:49 - 2:51 ("ah"), 2:55 - 2:59 ("not it"). It's better at pronouns as well.
+
+Gemma 4 is better at wordplay too (3:29 - 3:32). At 3:29, Hitoshi said "advancing to next grade is more important than making year-end gift (お歳暮)" and then Asuka replied "It isn't a year-end gift (お歳暮), it's a Christmas present (クリスマスプレゼント)!". Year-end gift is a general gift while Christmas present is the one a girl gives her crush so there is a difference here. Gemma gets both right while Sugoi translates both to Christmas gift/present.
+
+
+Upvote
+7
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/Velocita84 avatar
+Velocita84
+•
+7mo ago
+I just tried it and it seems incredibly good at translating doujinshi dialogue for its size, i threw a pretty difficult transcribed bubble at it and it translated it pretty much flawlessly, unlike many other models that i could run. I'm also surprised that it doesn't complain about nsfw at all, doesn't even question it in the thinking, just gets to work immediately
+
+
+Upvote
+14
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+Educational_Grab_473
+•
+7mo ago
+Do you think it beats gemini 3.1 flash lite? I've been using it because of the speed
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+I'm not sure because I haven't used 3.1 Flash Lite myself.
+
+If I have to use cloud models, I'd rather use a bigger ones such as DeepSeek for a significant increase in quality compared to local models.
+
+
+Upvote
+3
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/Tamitami avatar
+Tamitami
+•
+7mo ago
+Did you try and compare the two smaller gemma 4 models for this?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+No, I didn't.
+
+Models smaller than 10B tend to translate VNs pretty poorly so I didn't try Gemma 4 E2B and E4B for this.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/oniongiovinski avatar
+oniongiovinski
+•
+6mo ago
+im using dahara1/gemma-4-E4B-it-UD-japanese-imatrix since it's the only model of gemma4 that fits my 12gb of vram, but it keeps outputting the thinking process in luna, however i dont want to turn off the streaming output option because it will take a bit long to output the translated texts
+is there anything i can do to fix it?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+6mo ago
+If you are using LM Studio, it seems that thinking switch for E2B and E4B is broken right now.
+
+Some people said "set nothink" works with Ollama but I haven't used it (both Ollama and E4B model) personally so I can't verify it. You can give it a try as described here.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+6mo ago
+Moreover, since you have 12GB of VRAM, you can try IQ3_K_S.
+
+LM Studio shows that it's 13.51GB but if you delete the vision file, it should free up 1GB of VRAM. Then offload 2 or 3 layers to CPU, disable thinking and it should be fast enough for translation.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/oniongiovinski avatar
+oniongiovinski
+•
+6mo ago
+im using oobabooga
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+6mo ago
+I'm not familiar with oobabooga and its settings, unfortunately (I used it for a while before it even supported GGUF).
+
+How about the 26B solution I mentioned before? It should be easy to set that up (offload layers) in LM Studio. You can try doing the same in oobabooga too.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/psychohistorian8 avatar
+psychohistorian8
+•
+7mo ago
+Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter
+I don't know how to resolve, but I am also having extreme context window issues with Gemma 4
+
+I could load Qwen 3.5 27B with ~32k context window, and with Gemma 4 31B I have to go down to ~8k otherwise my Mac is hard crashing/rebooting
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+A runtime update in LM Studio today (llama.cpp 2.11.0) fixed the VRAM hogging issue for me.
+
+Comment Image
+
+Upvote
+5
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/psychohistorian8 avatar
+psychohistorian8
+•
+7mo ago
+Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter
+YES!
+
+I was able to load Gemma 4 31B with 32k context, which matches what I was able to do with Qwen 3.5 27B
+
+Finally I can start testing!!
+
+
+Upvote
+4
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+Yeah, the dense 31B is one thing but it's weird that even the MoE 26B A4B also eats so much VRAM for such short context.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/MiningDemon avatar
+MiningDemon
+•
+7mo ago
+Does it beat the vntl-llama3-8b-v2 model? That model has been fine-tuned for this task.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/KageYume avatar
+KageYume
+OP
+•
+7mo ago
+•
+Edited 7mo ago
+Yes, it does and by far.
+
+vntl-llama3-8b-v2 is both ancient and small so it has been beaten by many models released in the past 2 years: Gemma 3 27B, Sugoi 14B, Qwen 3.5 27B, not to mention Gemma 4.
+
+Another thing is, for a model to work well for VN translation, it has to be able to follow instructions well and I can't say that about vntl-llama3-8b-v2.
+
+
+Upvote
+7
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+_Sub01_
+•
+7mo ago
+I'm really hoping for the Shisa AI team to release their finetuned JP models for Gemma 4 IT, seeing how strong of a foundation model Gemma 4 is.
+
+I'm currently looking into finetuning one myself for an upcoming TL project using a 2 staged training pipeline for both Shisa's dataset and VNTL although I might have to replace VNTL's dataset with dataset from a high quality localization
+
+
+Upvote
+5
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+Best-Holiday1395
+•
+6mo ago
+Any good models that are good for 8gb VRAM?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/DifferenceParking567 avatar
+DifferenceParking567
+•
+5mo ago
+do we need to finetune gemma-4 or gemma-4 can already translate Japanese to English excellently?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/DifferenceParking567 avatar
+DifferenceParking567
+•
+5mo ago
+have you compared with NVIDIA's nemotron fine-tune for Japanese version (https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese)? nemotron is lighter (9B vs 27B), I'm curious if nemotron is equivalent with less computational efforts.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
