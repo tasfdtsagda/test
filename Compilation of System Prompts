@@ -1,4 +1,5 @@
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 license: apache-2.0
 language:
 - ja
@@ -81,7 +82,9 @@ These features are experimental and may need tuning:
 ## Getting the Model
 
 Available via Files and Versions tab above. Or search this repo on LM Studio and download the model.
----
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 license: cc-by-nc-sa-4.0
 language:
 - zh
@@ -187,7 +190,9 @@ v3请求模板：
 | Q4_K | 小的质量损失（6G显存推荐）|
 | Q5_K | 很小的质量损失（6G/8G显存推荐） |
 | Q6_k | 细小的质量损失（8G及以上显存推荐） |
----
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 library_name: transformers
 tags:
 - translation
@@ -518,7 +523,9 @@ If you appreciate the work, please consider [buying me a coffee](https://www.buy
 I'm also open to job opportunities or sponsorship.
 
 Thank you! 😊
----
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Unsloth's gemma-4-26B-A4B-it-UD-Q5_K_M
 
 Context: 8192
@@ -568,3 +575,5 @@ Input lines are in one of two formats:
   Example: [Narration] 彼女は窓の外を眺めていた。
 
 Output only the translated text. Do not include the bracketed prefix (example: [Sugisawa Ema|恵麻|Female] or [Narration]) in your response.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
