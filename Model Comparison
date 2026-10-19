@@ -2073,6 +2073,8 @@ LingoCloud In the first place, how exactly can I make a girlfriend?
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+problem: the source text has an elongated "おぉおおおおおおおおおおっ!!??" (dramatic scream) and the model tried to reproduce the elongation with repeated "¡¿" and hit the length limit.
+
 completed
 apireq_915595e77a85438284598cf75c2349c4
 POST /v1/chat/completions
